@@ -1,0 +1,8 @@
+En este documento se deja por escrito los puntos principales acordados en la primera entrevista celebrada el día 21 de septiembre de 2026 entre Nadia Coronel Correa en calidad de clienta y Antonio Salazar Alonso en calidad de representación del equipo de desarrollo software al que se le proporcionan la siguiente información con la intención de abordar la puesta en marcha del proyecto. 
+
+Como contextualización previa, nuestro equipo se pone a disposición de la clienta ya mencionada, quien preside una asociación estudiantil centrada en ámbitos académicos, por lo que nuestro proyecto consistirá en proveer de un servicio de acceso a material de estudio, apuntes realizados por estudiantes etc… . 
+
+En términos generales, la clienta solicita una aplicación que recoja apuntes y material de estudio organizados en distintos repositorios para ponerlos al servicio de unos usuarios, que a su vez son socios de la asociación a la que se presta este proyecto. La aplicación distingue entre usuario corriente y usuario administrador. Un usuario corriente tiene que tener la posibilidad tanto de donar sus documentos de cualquier ámbito estudiantil pudiendo clasificarlo por sus características (grado universitario, curso… ) como de acceder y descargar otros apuntes de la aplicación. Por otro lado se distingue un usuario administrador perteneciente a la junta directiva de la asociación, un perfil con la capacidad de realizar todas las acciones de un usuario común y de aprobar o denegar documentos subidos por los estudiantes con el fin de verificar la validez de los mismos. 
+
+De cara a fases posteriores del desarrollo, esta información se complementará o contrastará con futuras indicaciones del cliente acordadas en otras reuniones o entrevistas. 
+
