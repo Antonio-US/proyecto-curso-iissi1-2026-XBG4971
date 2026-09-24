@@ -1,15 +1,30 @@
-# Título Proyecto
+[Acta de primera entrevista.md](https://github.com/user-attachments/files/32597219/Acta.de.primera.entrevista.md)# Título Proyecto
 
 ## Miembros del grupo LX-XXX-X (sustituir)
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Bolaños Sevillano, Alfredo
+2. Jimenez de la Fuente, Alvaro
+3. Padilla Copado, Antonio
+4. Salazar Alonso, Antonio
 
 ## 1. Introducción al problema
 
-- Descripción del problema para poner en contexto el proyecto, incluyendo información sobre los clientes y usuarios, la situación actual, problemas, expectativas, etc. Se valorará la presencia de información multimedia (fotos, gráficos, documentos escaneados, etc.).
+- Nuestro equipo se pone a disposición de la clienta Nadia Coronel Correa, quien preside una asociación estudiantil centrada en ámbitos académicos, por
+lo que nuestro proyecto consistirá en proveer de un servicio de acceso a material de
+estudio, apuntes realizados por estudiantes etc… .
+- En términos generales, la clienta solicita una aplicación que recoja apuntes y material de
+estudio organizados en distintos repositorios para ponerlos al servicio de unos usuarios, que
+a su vez son socios de la asociación a la que se presta este proyecto. La aplicación
+distingue entre usuario corriente y usuario administrador. Un usuario corriente tiene que
+tener la posibilidad tanto de donar sus documentos de cualquier ámbito estudiantil
+pudiendo clasificarlo por sus características (grado universitario, curso… ) como de acceder
+y descargar otros apuntes de la aplicación.
+- Por otro lado se distingue un usuario
+administrador perteneciente a la junta directiva de la asociación, un perfil con la capacidad
+de realizar todas las acciones de un usuario común y de aprobar o denegar documentos
+subidos por los estudiantes con el fin de verificar la validez de los mismos.
+
+[Acta de primera entrevista](Acta de primera entrevista.md)
 
 ## 2. Glosario de términos
 
