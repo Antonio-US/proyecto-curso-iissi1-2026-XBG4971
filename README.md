@@ -24,7 +24,7 @@ administrador perteneciente a la junta directiva de la asociación, un perfil co
 de realizar todas las acciones de un usuario común y de aprobar o denegar documentos
 subidos por los estudiantes con el fin de verificar la validez de los mismos.
 
-Versión extendida de la introducción al problema: [Acta de primera entrevista](Acta%de%primera%entrevista.md)
+Versión extendida de la introducción al problema: [Acta de primera entrevista](Acta%20de%20primera%20entrevista.md)
 
 ## 2. Glosario de términos
 
