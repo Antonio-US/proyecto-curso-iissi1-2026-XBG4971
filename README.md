@@ -33,6 +33,13 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 ## 3. Visión general del sistema
 
 ### 3.1. Requisitos generales
+- Registro de Material de Estudio: Como presidenta de la asociación de estudio Astra, quiero centralizar el material de estudio digital para proveer un buen servicio de aprendizaje a los socios de la asociación.
+- Organización de Repositorios y contenidos: Como Equipo directivo de Astra, queremos una búsqueda eficiente e intuitiva de los repositorios para facilitar el uso y gestión de la aplicación.
+- Control de Material: Como Encargados principales de la asociación queremos un sistema de  verificación del material privado para controlar los archivos puestos a disposición de nuestros miembros.
+- Gestión de material_ Como Junta Directiva de la asociación queremos manejar con libertad los documentos publicados y archivados para poder ofrecer un servicio completo y actualizado.
+- Inicio de Sesión en la aplicación: Como presidenta quiero un sistema de inicio de sesión para asegurar la integridad de la aplicación y sus beneficiarios.
+- Calificación de Servicios: Como proveedores queremos una forma de saber el nivel de satisfacción con el material de aprendizaje que comparti
+
 
 ### 3.2. Usuarios del sistema
 
