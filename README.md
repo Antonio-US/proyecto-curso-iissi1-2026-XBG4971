@@ -38,7 +38,7 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 - Control de Material: Como Encargados principales de la asociación queremos un sistema de  verificación del material privado para controlar los archivos puestos a disposición de nuestros miembros.
 - Gestión de material_ Como Junta Directiva de la asociación queremos manejar con libertad los documentos publicados y archivados para poder ofrecer un servicio completo y actualizado.
 - Inicio de Sesión en la aplicación: Como presidenta quiero un sistema de inicio de sesión para asegurar la integridad de la aplicación y sus beneficiarios.
-- Calificación de Servicios: Como proveedores queremos una forma de saber el nivel de satisfacción con el material de aprendizaje que comparti
+- Calificación de Servicios: Como proveedores queremos una forma de saber el nivel de satisfacción con el material de aprendizaje que compartimos
 
 
 ### 3.2. Usuarios del sistema
