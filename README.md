@@ -115,14 +115,65 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 ##### R.I.01. Título requisito de información
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
-
-**Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- ...
+Como usuario quiero poder acceder a la siguiente información de cada archivo:
+	- Autor
+	- Fecha de subida
+	- Formato
+	- Nº de descargas
+	- Puntuación
+	- Verificación
+	- Asignatura, que debe poseer la información:
+		- Nombre de la asignatura
+		- Titulación
+		- Año de la carrera
+- Como usuario quiero poder editar la siguiente información de cada archivo:
+	- Puntuación
+- Como usuario quiero poder acceder y editar la siguiente información de mi cuenta:
+	- Usuario
+	- Contraseña
+	- Apuntes, que debe de contar con:
+		- Apunte individual
+	- Información personal, que debe constar de:
+		- Nombre
+		- Apellido
+		- Nº de socio
+		- Teléfono
+		- Dirección
+		- Correo
+- Como usuario quiero poder acceder a la siguiente información de las cuentas de otros usuarios:
+	- Usuario
+	- Apuntes
+- Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros usuarios:
+	- Apuntes
+	- Permisos que a su vez consta de:
+		- Permiso de descarga
+		- Permiso de subida
+		- Permiso de verificación
+		- Permiso de registro
+		- Permiso de uso de cuenta
+- Como administrador/presidente/técnico quiero poder acceder a la siguiente información de las cuentas de otros usuarios:
+	- Usuario
+	- Información personal
+- Como presidente/técnico quiero poder acceder y editar la siguiente información de las cuentas de otros usuarios/administradores:
+	- Usuario
+	- Apuntes
+	- Información personal
+	- Permisos que a su vez consta de:
+		- Permiso de descarga
+		- Permiso de subida
+		- Permiso eliminación
+		- Permiso administrador
+		- Permiso permiso verificación
+		- Permiso de registro
+		- Permiso de uso de cuenta
+- Como administrador/presidente quiero poder acceder y editar la siguiente información de cada archivo:
+	- Formato
+	- Verificación
+	- Asignatura
+- Como técnico quiero poder editar a la siguiente información de otras usuarios/administradores/presidente:
+	- Usuario
+	- Apuntes
+	- Información personal
 
 #### 4.1.2. Reglas de negocio
 
