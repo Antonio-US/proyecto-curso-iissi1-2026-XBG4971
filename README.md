@@ -48,19 +48,62 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 ### 4.1. Requisitos funcionales
 - A continuación se redactan los requisitos funcionales que describen las principales funcionalidades que NOX debe proveer. Gestionar el repositorio académico de ASTRA, permitiendo a los estudiantes compartir, consultar y utilizar recursos académicos bajo un sistema de control de acceso y moderación. Así, los requisitos funcionales son los siguientes:
 
+#### R.F.01. Registro de usuarios: 
+Como presidenta, quiero permitir a los estudiantes crear una cuenta de usuario entregando los datos personales que la aplicación les pida, para que Nox pueda identificar los usuarios que accedan al sistema. 
 
-#### R.F.01. Título requisito funcional
+#### R.F.02. Autenticación de usuarios: 
+Como presidenta, quiero que Nox permita realizar inicio y cierre de sesión aplicando un método de autenticación para que los usuarios puedan identificarse. 
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+#### R.F.03. Gestión de roles y permisos: 
+Como presidenta, quiero diferenciar entre usuarios ordinarios y autorizados, permitiendo establecer roles y permisos distintos para gestionar y controlar las funciones que cada usuario pueda desempeñar. 
 
-#### R.F.01. Título requisito funcional
+#### R.F.04. Control de acceso al repositorio: 
+Como presidenta, quiero limitar el acceso al repositorio de recursos académicos según se sea usuario o no, para tener un control del acceso a Nox. 
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+#### R.F.05. Liberación de recursos académicos: 
+Como presidenta, quiero permitir que los usuarios suban sus recursos y que, una vez revisados, para quedar al libre uso del resto de miembros. 
 
+#### R.F.06. Gestión de información de los recursos: 
+Como  administrador, quiero administrar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los apuntes. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
+
+#### R.F.07. Revisión de recursos: 
+Como administrador, quiero asegurar que los recursos publicados cumplen la normativa vigente de ASTRA, posibilitando a los usuarios autorizados visualizar el material que esté pendiente de revisión y tomar la decisión de si cumplen los criterios correspondientes para ser lanzados, para evitar la existencia dentro de Nox de apuntes que no sean válidos. 
+
+#### R.F.08. Aprobación y rechazo de recursos: 
+Como administrador, quiero redactar el porqué de la eliminación o rechazo de un recurso académico liberado, para dejar constancia de una justificación válida para dicha decisión. 
+
+#### R.F.09. Retirada de recursos: 
+Como administrador, quiero retirar recursos académicos que hayan sido subidos cuando se detecte el incumplimiento de la normativa o cualquier otra razón que justifique su retirada, para no tener apuntes dentro de Nox que dañen la plataforma, en cualquier sentido. 
+
+#### R.F.10. Búsqueda de recursos: 
+Como usuario, quiero poder buscar los recursos académicos que desee mediante el medio correspondiente para poder encontrar mis apuntes más rápidamente. 
+
+#### R.F.11. Filtrado de recursos. 
+Como presidenta, quiero permitir que a la hora de buscar dichos recursos pueda aplicarse un filtrado por parámetros como la asignatura, carrera o curso, para alcanzar más rápido al resultado deseado. 
+
+#### R.F.12. Consulta de recursos: 
+Como usuario, quiero visualizar los recursos que vayan a descargarse para saber qué apuntes van a ser utilizados. 
+
+#### R.F.13. Descarga de recursos: 
+Como usuario, quiero descargar los recursos que desee para tenerlos en mi ordenador.
+
+#### R.F.14. Registro de descargas: 
+Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener la constancia de la tendencia dentro de la plataforma que crea dichos apuntes. 
+
+#### R.F.15. Reporte de recursos: 
+Como usuario, quiero poder detectar materiales que infrinjan normas de ASTRA, teniendo la posibilidad de comunicar incidencias relacionadas con el recurso académico para poder calificar la utilidad de los archivos mediante un sistema de calificación. 
+
+#### R.F.16. Gestión de incidencias y moderación: 
+Como administrador, quiero gestionar las incidencias comunicadas por los usuarios para emprender las acciones correspondientes sobre los usuarios que hayan subido el recurso académico infractor. 
+
+#### R.F.17. Gestión de usuarios: 
+Como administrador, quiero gestionar las cuentas de los usuarios, para mantener el control de acceso a Nox mediante un panel de administrador donde se pueda añadir, editar y eliminar cuentas de ususario así como nivel de permisos, derechos de descargas de archivos... etc. 
+
+#### R.F.18. Suspensión y restauración del acceso: 
+Como administrador, quiero poder suspender las cuentas a los usuarios en caso de incumplir la normativa así como la posibilidad de restaurarlas posteriormente, para poder permitir de nuevo la visualización de archivos y recursos de Nox. 
+
+#### R.F.19. Gestión del estado de los recursos: 
+Como administrador, quiero actualizar el estado de cada recurso (pendiente de revisión, aprobado, rechazado, retirado) para determinar si el archivo puede ser descargado por los estudiantes. 
 
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
