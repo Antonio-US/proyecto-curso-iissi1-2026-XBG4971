@@ -42,6 +42,14 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 
 
 ### 3.2. Usuarios del sistema
+#### Usuario socio
+- El usuario socio o base es aquel que sube archivos y puede visualizarlos, valorarlos y descargarlos. Tienen libertad para editar su perfil, información de usuario y datos personales.
+#### Usuario Administrador
+- Usuario encargado de moderar contenidos dentro de la aplicación y crear cuentas de socio. Este cuenta con los derechos de una cuenta de socio y además puede publicar apuntes, verificarlos, ocultarlos, y restringir los permisos referentes a archivos y uso de cuentas.
+#### Usuario Presidente
+- Un usuario presidente tiene derechos de control total sobre los apuntes, permisos de uso de los perfiles y permisos de administración. Es el rango de máxima autoridad dentro de la gestión de permisos e información. 
+#### Usuario Técnico
+- Es un usuario con control total sobre las cuentas y la estructura del programa de la aplicación pudiendo proveer de un servicio de mantenimiento y gestión de errores una vez puesta en marcha la aplicación. La manipulación de datos ajenos no debe darse en ningún caso salvo un motivo de fallo justificado relacionado exclusivamente con el software funcional de la aplicación.
 
 ## 4. Catálogo de requisitos
 
@@ -49,7 +57,7 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 - A continuación se redactan los requisitos funcionales que describen las principales funcionalidades que NOX debe proveer. Gestionar el repositorio académico de ASTRA, permitiendo a los estudiantes compartir, consultar y utilizar recursos académicos bajo un sistema de control de acceso y moderación. Así, los requisitos funcionales son los siguientes:
 
 #### R.F.01. Registro de usuarios: 
-Como presidenta, quiero permitir a los estudiantes crear una cuenta de usuario entregando los datos personales que la aplicación les pida, para que Nox pueda identificar los usuarios que accedan al sistema. 
+Como presidenta, quiero permitir a los administradores crear una cuenta de usuario entregando los datos personales que la aplicación les pida, para que Nox pueda identificar los usuarios que accedan al sistema. 
 
 #### R.F.02. Autenticación de usuarios: 
 Como presidenta, quiero que Nox permita realizar inicio y cierre de sesión aplicando un método de autenticación para que los usuarios puedan identificarse. 
@@ -64,7 +72,7 @@ Como presidenta, quiero limitar el acceso al repositorio de recursos académicos
 Como presidenta, quiero permitir que los usuarios suban sus recursos y que, una vez revisados, para quedar al libre uso del resto de miembros. 
 
 #### R.F.06. Gestión de información de los recursos: 
-Como  administrador, quiero administrar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los archivos. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
+Como  administrador, quiero gestionar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los archivos. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
 
 #### R.F.07. Revisión de recursos: 
 Como administrador, quiero asegurar que los recursos publicados cumplen la normativa vigente de ASTRA, posibilitando a los usuarios autorizados visualizar el material que esté pendiente de revisión y tomar la decisión de si cumplen los criterios correspondientes para ser lanzados, para evitar la existencia dentro de Nox de archivos que no sean válidos. 
@@ -85,16 +93,16 @@ Como presidenta, quiero permitir que a la hora de buscar dichos recursos pueda a
 Como usuario, quiero visualizar los recursos que vayan a descargarse para saber qué archivos van a ser utilizados. 
 
 #### R.F.13. Descarga de recursos: 
-Como usuario, quiero descargar los recursos que desee para tenerlos en mi ordenador.
+Como usuario, quiero descargar los recursos que desee para tenerlos en mi dispositivo.
 
 #### R.F.14. Registro de descargas: 
-Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener la constancia de la tendencia dentro de la plataforma que crea dichos archivos. 
+Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener constancia de la tendencia dentro de la plataforma que ofrece dichos archivos. 
 
 #### R.F.15. Reporte de recursos: 
 Como usuario, quiero poder detectar materiales que infrinjan normas de ASTRA, teniendo la posibilidad de comunicar incidencias relacionadas con el recurso académico para poder calificar la utilidad de los archivos mediante un sistema de calificación. 
 
 #### R.F.16. Gestión de incidencias y moderación: 
-Como administrador, quiero gestionar las incidencias comunicadas por los usuarios para emprender las acciones correspondientes sobre los usuarios que hayan subido el recurso académico infractor. 
+Como presidente, quiero gestionar las incidencias comunicadas por los usuarios para emprender las acciones correspondientes sobre los usuarios que hayan subido el recurso académico infractor. 
 
 #### R.F.17. Gestión de usuarios: 
 Como administrador, quiero gestionar las cuentas de los usuarios, para mantener el control de acceso a Nox mediante un panel de administrador donde se pueda añadir, editar y eliminar cuentas de ususario así como nivel de permisos, derechos de descargas de archivos... etc. 
