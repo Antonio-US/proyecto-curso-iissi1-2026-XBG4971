@@ -115,7 +115,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 ##### R.I.01. Título requisito de información
 
-Como usuario quiero poder acceder a la siguiente información de cada archivo:
+- Como usuario quiero poder acceder a la siguiente información de cada archivo:
 	- Autor
 	- Fecha de subida
 	- Formato
@@ -126,8 +126,14 @@ Como usuario quiero poder acceder a la siguiente información de cada archivo:
 		- Nombre de la asignatura
 		- Titulación
 		- Año de la carrera
+ 
+##### R.I.02. Título requisito de información
+
 - Como usuario quiero poder editar la siguiente información de cada archivo:
 	- Puntuación
+
+##### R.I.03. Título requisito de información
+
 - Como usuario quiero poder acceder y editar la siguiente información de mi cuenta:
 	- Usuario
 	- Contraseña
@@ -140,9 +146,15 @@ Como usuario quiero poder acceder a la siguiente información de cada archivo:
 		- Teléfono
 		- Dirección
 		- Correo
+  
+##### R.I.04. Título requisito de información
+
 - Como usuario quiero poder acceder a la siguiente información de las cuentas de otros usuarios:
 	- Usuario
 	- Apuntes
+
+##### R.I.05. Título requisito de información
+
 - Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros usuarios:
 	- Apuntes
 	- Permisos que a su vez consta de:
@@ -151,9 +163,15 @@ Como usuario quiero poder acceder a la siguiente información de cada archivo:
 		- Permiso de verificación
 		- Permiso de registro
 		- Permiso de uso de cuenta
+
+##### R.I.06. Título requisito de información
+
 - Como administrador/presidente/técnico quiero poder acceder a la siguiente información de las cuentas de otros usuarios:
 	- Usuario
 	- Información personal
+
+##### R.I.07. Título requisito de información
+
 - Como presidente/técnico quiero poder acceder y editar la siguiente información de las cuentas de otros usuarios/administradores:
 	- Usuario
 	- Apuntes
@@ -166,10 +184,16 @@ Como usuario quiero poder acceder a la siguiente información de cada archivo:
 		- Permiso permiso verificación
 		- Permiso de registro
 		- Permiso de uso de cuenta
+
+##### R.I.08. Título requisito de información
+
 - Como administrador/presidente quiero poder acceder y editar la siguiente información de cada archivo:
 	- Formato
 	- Verificación
 	- Asignatura
+
+##### R.I.09. Título requisito de información
+
 - Como técnico quiero poder editar a la siguiente información de otras usuarios/administradores/presidente:
 	- Usuario
 	- Apuntes
