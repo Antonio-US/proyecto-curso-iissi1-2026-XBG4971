@@ -11,14 +11,14 @@
 
 - Nuestro equipo se pone a disposición de la clienta Nadia Coronel Correa, quien preside una asociación estudiantil centrada en ámbitos académicos, por
 lo que nuestro proyecto consistirá en proveer de un servicio de acceso a material de
-estudio, apuntes realizados por estudiantes etc… .
-- En términos generales, la clienta solicita una aplicación que recoja apuntes y material de
+estudio, archivos realizados por estudiantes etc… .
+- En términos generales, la clienta solicita una aplicación que recoja archivos y material de
 estudio organizados en distintos repositorios para ponerlos al servicio de unos usuarios, que
 a su vez son socios de la asociación a la que se presta este proyecto. La aplicación
 distingue entre usuario corriente y usuario administrador. Un usuario corriente tiene que
 tener la posibilidad tanto de donar sus documentos de cualquier ámbito estudiantil
 pudiendo clasificarlo por sus características (grado universitario, curso… ) como de acceder
-y descargar otros apuntes de la aplicación.
+y descargar otros archivos de la aplicación.
 - Por otro lado se distingue un usuario
 administrador perteneciente a la junta directiva de la asociación, un perfil con la capacidad
 de realizar todas las acciones de un usuario común y de aprobar o denegar documentos
@@ -64,31 +64,31 @@ Como presidenta, quiero limitar el acceso al repositorio de recursos académicos
 Como presidenta, quiero permitir que los usuarios suban sus recursos y que, una vez revisados, para quedar al libre uso del resto de miembros. 
 
 #### R.F.06. Gestión de información de los recursos: 
-Como  administrador, quiero administrar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los apuntes. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
+Como  administrador, quiero administrar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los archivos. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
 
 #### R.F.07. Revisión de recursos: 
-Como administrador, quiero asegurar que los recursos publicados cumplen la normativa vigente de ASTRA, posibilitando a los usuarios autorizados visualizar el material que esté pendiente de revisión y tomar la decisión de si cumplen los criterios correspondientes para ser lanzados, para evitar la existencia dentro de Nox de apuntes que no sean válidos. 
+Como administrador, quiero asegurar que los recursos publicados cumplen la normativa vigente de ASTRA, posibilitando a los usuarios autorizados visualizar el material que esté pendiente de revisión y tomar la decisión de si cumplen los criterios correspondientes para ser lanzados, para evitar la existencia dentro de Nox de archivos que no sean válidos. 
 
 #### R.F.08. Aprobación y rechazo de recursos: 
 Como administrador, quiero redactar el porqué de la eliminación o rechazo de un recurso académico liberado, para dejar constancia de una justificación válida para dicha decisión. 
 
 #### R.F.09. Retirada de recursos: 
-Como administrador, quiero retirar recursos académicos que hayan sido subidos cuando se detecte el incumplimiento de la normativa o cualquier otra razón que justifique su retirada, para no tener apuntes dentro de Nox que dañen la plataforma, en cualquier sentido. 
+Como administrador, quiero retirar recursos académicos que hayan sido subidos cuando se detecte el incumplimiento de la normativa o cualquier otra razón que justifique su retirada, para no tener archivos dentro de Nox que dañen la plataforma, en cualquier sentido. 
 
 #### R.F.10. Búsqueda de recursos: 
-Como usuario, quiero poder buscar los recursos académicos que desee mediante el medio correspondiente para poder encontrar mis apuntes más rápidamente. 
+Como usuario, quiero poder buscar los recursos académicos que desee mediante el medio correspondiente para poder encontrar mis archivos más rápidamente. 
 
 #### R.F.11. Filtrado de recursos. 
 Como presidenta, quiero permitir que a la hora de buscar dichos recursos pueda aplicarse un filtrado por parámetros como la asignatura, carrera o curso, para alcanzar más rápido al resultado deseado. 
 
 #### R.F.12. Consulta de recursos: 
-Como usuario, quiero visualizar los recursos que vayan a descargarse para saber qué apuntes van a ser utilizados. 
+Como usuario, quiero visualizar los recursos que vayan a descargarse para saber qué archivos van a ser utilizados. 
 
 #### R.F.13. Descarga de recursos: 
 Como usuario, quiero descargar los recursos que desee para tenerlos en mi ordenador.
 
 #### R.F.14. Registro de descargas: 
-Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener la constancia de la tendencia dentro de la plataforma que crea dichos apuntes. 
+Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener la constancia de la tendencia dentro de la plataforma que crea dichos archivos. 
 
 #### R.F.15. Reporte de recursos: 
 Como usuario, quiero poder detectar materiales que infrinjan normas de ASTRA, teniendo la posibilidad de comunicar incidencias relacionadas con el recurso académico para poder calificar la utilidad de los archivos mediante un sistema de calificación. 
@@ -115,7 +115,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 ##### R.I.01. Título requisito de información
 
-- Como usuario quiero poder acceder a la siguiente información de cada archivo:
+- Como socio quiero poder acceder a la siguiente información de cada archivo:
 	- Autor
 	- Fecha de subida
 	- Formato
@@ -129,15 +129,15 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
  
 ##### R.I.02. Título requisito de información
 
-- Como usuario quiero poder editar la siguiente información de cada archivo:
+- Como socio quiero poder editar la siguiente información de cada archivo:
 	- Puntuación
 
 ##### R.I.03. Título requisito de información
 
-- Como usuario quiero poder acceder y editar la siguiente información de mi cuenta:
-	- Usuario
+- Como socio quiero poder acceder y editar la siguiente información de mi cuenta:
+	- Nombre de usuario
 	- Contraseña
-	- Apuntes, que debe de contar con:
+	- archivos, que debe de contar con:
 		- Apunte individual
 	- Información personal, que debe constar de:
 		- Nombre
@@ -149,14 +149,14 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
   
 ##### R.I.04. Título requisito de información
 
-- Como usuario quiero poder acceder a la siguiente información de las cuentas de otros usuarios:
-	- Usuario
-	- Apuntes
+- Como socio quiero poder acceder a la siguiente información de las cuentas de otros socios:
+	- Nombre de usuario
+	- archivos
 
 ##### R.I.05. Título requisito de información
 
-- Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros usuarios:
-	- Apuntes
+- Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros socios:
+	- archivos
 	- Permisos que a su vez consta de:
 		- Permiso de descarga
 		- Permiso de subida
@@ -166,15 +166,15 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 ##### R.I.06. Título requisito de información
 
-- Como administrador/presidente/técnico quiero poder acceder a la siguiente información de las cuentas de otros usuarios:
-	- Usuario
+- Como administrador/presidente/técnico quiero poder acceder a la siguiente información de las cuentas de otros socios:
+	- Nombre de usuario
 	- Información personal
 
 ##### R.I.07. Título requisito de información
 
-- Como presidente/técnico quiero poder acceder y editar la siguiente información de las cuentas de otros usuarios/administradores:
-	- Usuario
-	- Apuntes
+- Como presidente/técnico quiero poder acceder y editar la siguiente información de las cuentas de otros socios/administradores:
+	- Nombre de usuario
+	- archivos
 	- Información personal
 	- Permisos que a su vez consta de:
 		- Permiso de descarga
@@ -194,9 +194,9 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 ##### R.I.09. Título requisito de información
 
-- Como técnico quiero poder editar a la siguiente información de otras usuarios/administradores/presidente:
-	- Usuario
-	- Apuntes
+- Como técnico quiero poder editar a la siguiente información de otras socios/administradores/presidente:
+	- Nombre de usuario
+	- archivos
 	- Información personal
 
 #### 4.1.2. Reglas de negocio
@@ -208,18 +208,22 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 ##### R.N.03. Título regla negocio
 - Como técnico debo tener la exclusividad del acceso al código para garantizar un sistema de gestión de errores eficiente y maximizar el control del mantenimiento de la aplicación tras su lanzamiento
 ##### R.N.04. Título regla negocio
-- Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar el acceso de los usuarios a la aplicación 
+- Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación 
 ##### R.N.05. Título regla negocio
-- Como presidenta quiero que solo puedan subir archivos los miembros de la asociación universitaria ASTRA con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los usuarios
+- Como presidenta quiero que solo puedan subir archivos los socios con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
 ##### R.N.06. Título regla negocio
 - Como administrador quiero que los usuarios suspensos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
-##### R.N.01. Título regla negocio
-- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los apuntes que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente  
 ##### R.N.07. Título regla negocio
-- Como administrador quiero que todas las cuentas de los usuarios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
+- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente  
 ##### R.N.08. Título regla negocio
-- Como presidenta quiero que los apuntes de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los apuntes realmente útiles
+- Como técnico quiero que los usuarios no tengan acceso o derecho de manipulación de ningunos de sus permisos propios, para mantener la estabilidad de la jerarquía de permisos
 ##### R.N.09. Título regla negocio
+-  Como presidenta quiero tener la capacidad de poder eliminar los permisos de los socios en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicació
+##### R.N.10. Título regla negocio
+- Como administrador quiero que todas las cuentas de los socios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
+##### R.N.11. Título regla negocio
+- Como presidenta quiero que los archivos de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los archivos realmente útiles
+##### R.N.12. Título regla negocio
 - Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación 
 
 **Prueba de aceptación**
