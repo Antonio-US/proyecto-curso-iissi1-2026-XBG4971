@@ -85,7 +85,31 @@ para [razón]
 
 ##### R.N.01. Título regla negocio
 
-Descripción de la regla de negocio.
+Como presidenta de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos 
+##### R.N.02. Título regla negocio
+Como presidenta quiero que todos lo usuarios posean un perfil completo (Nombre, contraseña, etc) dentro de la aplicación para poder ser fácilmente reconocibles
+##### R.N.03. Título regla negocio
+Como técnico debo tener la exclusividad del acceso al código para garantizar un sistema de gestión de errores eficiente y maximizar el control del mantenimiento de la aplicación tras su lanzamiento
+##### R.N.04. Título regla negocio
+Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar el acceso de los usuarios a la aplicación 
+##### R.N.05. Título regla negocio
+Como presidenta quiero que solo puedan subir archivos los miembros de la asociación universitaria ASTRA con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los usuarios
+##### R.N.06. Título regla negocio
+Como administrador quiero que los usuarios suspensos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
+##### R.N.01. Título regla negocio
+Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los apuntes que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente  
+##### R.N.07. Título regla negocio
+Como administrador quiero que todas las cuentas de los usuarios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
+##### R.N.08. Título regla negocio
+Como presidenta quiero que los apuntes de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los apuntes realmente útiles
+##### R.N.09. Título regla negocio
+Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación 
+
+**Prueba de aceptación**
+- Descripción de la primera comprobación a realizar
+- Descripción de la segunda comprobación a realizar
+- Se debe aplicar la regla de negocio R.N.XX.
+- ...
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
