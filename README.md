@@ -46,12 +46,24 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 ## 4. Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales
+A continuación se redactan los requisitos funcionales que describen las principales funcionalidades que NOX debe proveer. Gestionar el repositorio académico de ASTRA, permitiendo a los estudiantes compartir, consultar y utilizar recursos académicos bajo un sistema de control de acceso y moderación. Así, los requisitos funcionales son los siguientes:
+R.F.01 Registro de usuarios: 
+Como socios de ASTRA quiero que NOX permita a los estudiantes editar una cuenta de usuario previamente creada por una cuenta administradora con los datos del usuario, para poder identificar a los usuarios que accedan al sistema.
+R.F.02: Autenticación de usuarios: 
+Como directivo quiero que NOX permita realizar inicio y cierre de sesión aplicando un método de autenticación. 
 
 #### R.F.01. Título requisito funcional
 
 Como [tipo de usuario]
 quiero [servicio]
 para [razón]
+
+#### R.F.01. Título requisito funcional
+
+Como [tipo de usuario]
+quiero [servicio]
+para [razón]
+
 
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
