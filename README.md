@@ -121,7 +121,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 	- Formato
 	- Nº de descargas
 	- Puntuación
-	- Verificación
+ 	- Verificación
 	- Asignatura, que debe poseer la información:
 		- Nombre de la asignatura
 		- Titulación
@@ -156,7 +156,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 ##### R.I.05. Título requisito de información
 
 - Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros socios:
-	- archivos
+	- Archivos
 	- Permisos que a su vez consta de:
 		- Permiso de descarga
 		- Permiso de subida
@@ -187,10 +187,11 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 ##### R.I.08. Título requisito de información
 
-- Como administrador/presidente quiero poder acceder y editar la siguiente información de cada archivo:
+- Como administrador/presidente/técnico quiero poder acceder y editar la siguiente información de cada archivo:
 	- Formato
-	- Verificación
+	- Verificado
 	- Asignatura
+ 	- Publicado 
 
 ##### R.I.09. Título requisito de información
 
