@@ -120,8 +120,20 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 - ...
 
 #### 4.1.1. Requisitos de información
-
-##### R.I.01. Título requisito de información
+##### Definiciones
+A continuación se dan diferentes definiciones de conceptos que se pueden ver en estos requisitos. No se detallan todos los conceptos, solo aquellos que puedan generar confusión.
+- Autor: Persona que ha subido un archivo a la aplicación, concretamente su nombre de usuario. 
+- Verificación: Distintivo de un archivo que muestra que un usuario ha revisado el documento antes de mostrarlo como público.
+- Información Personal: Se entiende por información personal datos tales como el nombre, apellido, número de teléfono, correo electrónico y dirección entre otros, pero se excluyen nombre de usuario y contraseña.
+- Publicado: Indica si un archivo subido es visible para usuarios socios o no.
+- Permiso de administración: Permiso que habilita a un usuario para realizar las funciones de un administrador.
+- Permiso de subida: Permiso que habilita a un usuario subir archivos a la plataforma.
+- Permiso de descarga: Permite o no descargar archivos de la aplicación.
+- Permiso de verificación: Permite marcar los archivos dándoles el distintivo de verificado por un administrador.
+- Permiso de registro: Permite crear cuentas de usuario a partir de información personal.
+- Permiso de uso de cuentas: Concede el derecho de habilitar o deshabilitar el uso de una cuenta por completo, pero sin eliminarla.
+- Permiso de eliminación: Da la capacidad de eliminar cuentas de usuario.
+##### R.I.01. Actividades realizables por usuarios socios
 
 - Como socio quiero poder acceder a la siguiente información de cada archivo:
 	- Autor
@@ -135,12 +147,12 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 		- Titulación
 		- Año de la carrera
  
-##### R.I.02. Título requisito de información
+##### R.I.02. Valoración de material
 
 - Como socio quiero poder editar la siguiente información de cada archivo:
 	- Puntuación
 
-##### R.I.03. Título requisito de información
+##### R.I.03. Derechos sobre datos propios
 
 - Como socio quiero poder acceder y editar la siguiente información de mi cuenta:
 	- Nombre de usuario
@@ -155,13 +167,13 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 		- Dirección
 		- Correo
   
-##### R.I.04. Título requisito de información
+##### R.I.04. Visualización de perfiles externos
 
 - Como socio quiero poder acceder a la siguiente información de las cuentas de otros socios:
 	- Nombre de usuario
 	- archivos
 
-##### R.I.05. Título requisito de información
+##### R.I.05. Control de permisos de socios
 
 - Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros socios:
 	- Archivos
@@ -172,13 +184,13 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 		- Permiso de registro
 		- Permiso de uso de cuenta
 
-##### R.I.06. Título requisito de información
+##### R.I.06. Gestión de cuentas
 
 - Como administrador/presidente/técnico quiero poder acceder a la siguiente información de las cuentas de otros socios:
 	- Nombre de usuario
 	- Información personal
 
-##### R.I.07. Título requisito de información
+##### R.I.07. Control de cuentas con permisos sobre aspectos relevantes
 
 - Como presidente/técnico quiero poder acceder y editar la siguiente información de las cuentas de otros socios/administradores:
 	- Nombre de usuario
@@ -193,7 +205,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 		- Permiso de registro
 		- Permiso de uso de cuenta
 
-##### R.I.08. Título requisito de información
+##### R.I.08. Gestión de material
 
 - Como administrador/presidente/técnico quiero poder acceder y editar la siguiente información de cada archivo:
 	- Formato
@@ -201,7 +213,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 	- Asignatura
  	- Publicado 
 
-##### R.I.09. Título requisito de información
+##### R.I.09. perfil técnico de control de aplicación
 
 - Como técnico quiero poder editar a la siguiente información de otras socios/administradores/presidente:
 	- Nombre de usuario
@@ -210,29 +222,29 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 #### 4.1.2. Reglas de negocio
 
-##### R.N.01. Título regla negocio
+##### R.N.01. Criterio de validación de material
 - Como presidenta de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos 
-##### R.N.02. Título regla negocio
+##### R.N.02. Organización de acceso a aplicación
 - Como presidenta quiero que todos lo usuarios posean un perfil completo (Nombre, contraseña, etc) dentro de la aplicación para poder ser fácilmente reconocibles
-##### R.N.03. Título regla negocio
+##### R.N.03. Mantenimiento eficiente
 - Como técnico debo tener la exclusividad del acceso al código para garantizar un sistema de gestión de errores eficiente y maximizar el control del mantenimiento de la aplicación tras su lanzamiento
-##### R.N.04. Título regla negocio
+##### R.N.04. Inicio de sesión
 - Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación 
-##### R.N.05. Título regla negocio
+##### R.N.05. Control sobre socios
 - Como presidenta quiero que solo puedan subir archivos los socios con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
-##### R.N.06. Título regla negocio
+##### R.N.06. Medidas para la moderación
 - Como administrador quiero que los usuarios suspensos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
-##### R.N.07. Título regla negocio
+##### R.N.07. Preservación de material
 - Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente  
-##### R.N.08. Título regla negocio
+##### R.N.08. Protección sobre derechos propios
 - Como técnico quiero que los usuarios no tengan acceso o derecho de manipulación de ningunos de sus permisos propios, para mantener la estabilidad de la jerarquía de permisos
-##### R.N.09. Título regla negocio
+##### R.N.09. Gestión de roles y privilegios
 -  Como presidenta quiero tener la capacidad de poder eliminar los permisos de los socios en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicació
-##### R.N.10. Título regla negocio
+##### R.N.10. Renovación de usuarios
 - Como administrador quiero que todas las cuentas de los socios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
-##### R.N.11. Título regla negocio
+##### R.N.11. Control de calidad y utilidad
 - Como presidenta quiero que los archivos de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los archivos realmente útiles
-##### R.N.12. Título regla negocio
+##### R.N.12. Protección de datos
 - Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación 
 
 **Prueba de aceptación**
