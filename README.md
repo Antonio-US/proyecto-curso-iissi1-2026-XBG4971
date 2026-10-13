@@ -210,86 +210,140 @@ A continuación se dan diferentes definiciones de conceptos que se pueden ver en
 	- Archivo
 
 #### 4.1.2. Reglas de negocio
-#### 4.1.2. Reglas de negocio
-
 ##### R.N.01. Criterio de validación de material
 
 - Como presidenta de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos
+
+**Prueba de aceptación**
+
+- Cuando un archivo es revisado por un administrador no aparece como verificado
+- Cuando un archivo es revisado por un segundo administrador aparece como verificado
+- Cualquier revision posterior no modifica su estado de verificado
 
 ##### R.N.02. Organización de acceso a aplicación
 
 - Como presidenta quiero que todos lo usuarios posean un perfil completo (Nombre, contraseña, etc) dentro de la aplicación para poder ser fácilmente reconocibles
 
+**Prueba de aceptación**
+
+- Todos los usuarios cuentan con un perfil
+- El perfil de todos los usuarios está completo (Cuentan con nombre, contraseña, etc)
 ##### R.N.03. Mantenimiento eficiente
 
 - Como técnico debo tener la exclusividad del acceso al código para garantizar un sistema de gestión de errores eficiente y maximizar el control del mantenimiento de la aplicación tras su lanzamiento
 
+**Prueba de aceptación**
+
+- Como técnico tengo acceso al código
+- Como usuario distinto a técnico no tengo acceso al código
 ##### R.N.04. Inicio de sesión
 
 - Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación
 
-##### R.N.05. Control sobre socios
+**Prueba de aceptación**
 
+- Al intentar iniciar sesión debo introducir mi nombre/número de socio y contraseña
+- Si no introduzco mi nombre/número de socio y contraseña correctamente no puedo iniciar sesión
+##### R.N.05. Control sobre socios
 
 - Como presidenta quiero que solo puedan subir archivos los socios con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
 
-##### R.N.06. Medidas para la moderación
+**Prueba de aceptación**
 
+- Si soy un socio con una antigüedad menor a una semana e intento subir un archivo me da error
+- Si soy un socio con una antigüedad superior a una semana e intento subir un archivo no me da error
+##### R.N.06. Medidas para la moderación
 
 - Como administrador quiero que los usuarios suspensos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
 
-##### R.N.07. Preservación de material
+**Prueba de aceptación**
 
+- Como administrador puedo suspender a usuarios
+- Si estoy en una cuenta suspensa he intento subir o descargar archivos me da error
+##### R.N.07. Preservación de material
 
 - Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente
 
-##### R.N.08. Protección sobre derechos propios
+**Prueba de aceptación**
 
+- La cuenta de un usuario es eliminada
+- Intento iniciar sesión a esa cuenta y me da error
+- El contenido subido por esa cuenta sigue disponible
+##### R.N.08. Protección sobre derechos propios
 
 - Como técnico quiero que los usuarios no tengan acceso o derecho de manipulación de ningunos de sus permisos propios, para mantener la estabilidad de la jerarquía de permisos
 
+**Prueba de aceptación**
+
+- Si soy socio no puedo ver o editar mis propios permisos
+- Si soy administrador no puedo ver o editar mis propios permisos pero si ver y editar los de los socios
+- Si soy presidente o técnico no puedo ver o editar mis propios permisos pero si ver y editar los de los administradores y socios
 ##### R.N.09. Gestión de roles y privilegios
 
+- Como presidenta quiero tener la capacidad de poder eliminar los permisos de los administradores en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicación
 
-- Como presidenta quiero tener la capacidad de poder eliminar los permisos de los socios en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicació
+**Prueba de aceptación**
 
+- Como presidenta puedo modificar el permiso de administración de los administradores 
+- Como administrador mis permisos pueden ser rebajados a los de socio
 ##### R.N.10. Renovación de usuarios
-
 
 - Como administrador quiero que todas las cuentas de los socios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
 
-##### R.N.11. Control de calidad y utilidad
+**Prueba de aceptación**
 
+- Llegado septiembre todas las cuentas de los socios son suspensa
+- Como socio si intento subir o descargar archivos me da error
+- Como administrador, presidente o técnico no me veo afectado
+##### R.N.11. Control de calidad y utilidad
 
 - Como presidenta quiero que los archivos de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los archivos realmente útiles
 
-##### R.N.12. Protección de datos
+**Prueba de aceptación**
 
+- Si el archivo supera cierto numero de descargas no es eliminado al comienzo del próximo curso
+- Si el archivo supera cierta puntuación no es eliminado al comienzo del próximo curso
+- Si el archivo no supera cierto numero de descargas es eliminado al comienzo del próximo curso
+- Si el archivo no supera cierta puntuación  es eliminado al comienzo del próximo curso
+##### R.N.12. Protección de datos
 
 - Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación
 
+**Prueba de aceptación**
+
+- El trato de la información se da conforme a la normativa de ASTRA de protección de datos
 ##### R.N.13. Permisos de edición de los socios
 
 - Como socio debo poder editar toda la información sobre mi cuenta salvo los permisos, a la asignatura y formato de mis archivos y de mis peticiones junto con el mensaje de usuario en esa ultima. También debo poder editar la valoración de los archivos ajenos, todo esto para poder hacer correcto uso de la aplicación 
 
+**Prueba de aceptación**
+
+- Cuando soy socio e intento editar la información sobre mi cuenta, asignatura y formato de mis archivos y valoración de los ajenos, mis peticiones o el mensaje de usuario de estas, no me da error
+- Si soy socio e intento editar cualquier otra cosa me da error
 ##### R.N.14. Permisos de lectura de los socios
 
 - Como socio debo poder leer toda la información de un archivo y el nombre de usuario y archivos de otros usuarios. También debo poder ver toda la información que puedo editar para hacer correcto uso de la aplicación 
 
+**Prueba de aceptación**
+
+- Cuando soy socio e intento leer la información sobre todos los archivos, el nombre y archivos de otros usuarios o cualquier otra información que puedo editar no me da error 
+- Si soy socio e intento leer cualquier otra cosa me da error
 ##### R.N.15. Permisos de edición y lectura de los administradores
 
 - Como administrador debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación, todo esto para cumplir correctamente mi función de administrador   
 
+**Prueba de aceptación**
+
+- Cuando soy administrador e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación no me da error 
+- Si soy administrador e intento editar o leer cualquier otra cosa me da error
 ##### R.N.16. Permisos de edición del presidente/técnicos
 
--  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico
-
+-  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico   
 
 **Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- Se debe aplicar la regla de negocio R.N.XX.
-- ...
+
+- Cuando soy presidente/técnico e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios y administradores no me da error 
+- Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
