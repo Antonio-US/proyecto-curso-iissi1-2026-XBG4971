@@ -1,4 +1,4 @@
-En este documento se deja por escrito los puntos principales acordados en la primera entrevista celebrada el día 21 de septiembre de 2026 entre Nadia Coronel Correa en calidad de clienta y Antonio Salazar Alonso en calidad de representación del equipo de desarrollo software al que se le proporcionan la siguiente información con la intención de abordar la puesta en marcha del proyecto. 
+En este documento se deja por escrito los puntos principales acordados en la [primera entrevista](Primera%20entrevista.mp4) celebrada el día 21 de septiembre de 2026 entre Nadia Coronel Correa en calidad de clienta y Antonio Salazar Alonso en calidad de representación del equipo de desarrollo software al que se le proporcionan la siguiente información con la intención de abordar la puesta en marcha del proyecto. 
 
 Como contextualización previa, nuestro equipo se pone a disposición de la clienta ya mencionada, quien preside una asociación estudiantil centrada en ámbitos académicos, por lo que nuestro proyecto consistirá en proveer de un servicio de acceso a material de estudio, apuntes realizados por estudiantes etc… . 
 
