@@ -133,92 +133,66 @@ A continuación se dan diferentes definiciones de conceptos que se pueden ver en
 - Permiso de registro: Permite crear cuentas de usuario a partir de información personal.
 - Permiso de uso de cuentas: Concede el derecho de habilitar o deshabilitar el uso de una cuenta por completo, pero sin eliminarla.
 - Permiso de eliminación: Da la capacidad de eliminar cuentas de usuario.
-##### R.I.01. Actividades realizables por usuarios socios
+
+##### R.I.01. Información accesible de los archivos
 
 - Como socio quiero poder acceder a la siguiente información de cada archivo:
-	- Autor
-	- Fecha de subida
-	- Formato
-	- Nº de descargas
-	- Puntuación
- 	- Verificación
-	- Asignatura, que debe poseer la información:
-		- Nombre de la asignatura
-		- Titulación
-		- Año de la carrera
- 
-##### R.I.02. Valoración de material
+    - Autor
+    - Fecha de subida
+    - Formato
+    - Nº de descargas
+    - Valoración, que consta de:
+	    - Puntuación 
+	    - Reseña
+	    - Respuesta de administrador
+    - Verificación
+    - Asignatura, que debe poseer la información:
+        - Nombre de la asignatura
+        - Titulación
+        - Año de la carrera
 
-- Como socio quiero poder editar la siguiente información de cada archivo:
-	- Puntuación
+##### R.I.02. Información accesible de las cuentas de los usuarios
 
-##### R.I.03. Derechos sobre datos propios
+- Como usuario quiero poder acceder a la siguiente información de las cuentas:
+    - Nombre de usuario
+    - Contraseña
+    - Archivos, que debe de contar con:
+        - Archivo
+    - Información personal, que debe constar de:
+        - Nombre
+        - Apellidos
+        - Nº de socio
+        - Teléfono
+        - Dirección
+        - Correo
+    - Permisos, que a su vez consta de:
+	    - Permiso de descarga
+        - Permiso de subida
+        - Permiso eliminación
+        - Permiso administrador
+        - Permiso permiso verificación
+        - Permiso de registro
+        - Permiso de uso de cuenta
 
-- Como socio quiero poder acceder y editar la siguiente información de mi cuenta:
-	- Nombre de usuario
-	- Contraseña
-	- archivos, que debe de contar con:
-		- Apunte individual
-	- Información personal, que debe constar de:
-		- Nombre
-		- Apellido
-		- Nº de socio
-		- Teléfono
-		- Dirección
-		- Correo
-  
-##### R.I.04. Visualización de perfiles externos
+##### R.I.03. Información accesible de las mentorías
 
-- Como socio quiero poder acceder a la siguiente información de las cuentas de otros socios:
-	- Nombre de usuario
-	- archivos
-
-##### R.I.05. Control de permisos de socios
-
-- Como administrador quiero poder acceder y editar la siguiente información de las cuentas de otros socios:
-	- Archivos
-	- Permisos que a su vez consta de:
-		- Permiso de descarga
-		- Permiso de subida
-		- Permiso de verificación
-		- Permiso de registro
-		- Permiso de uso de cuenta
-
-##### R.I.06. Gestión de cuentas
-
-- Como administrador/presidente/técnico quiero poder acceder a la siguiente información de las cuentas de otros socios:
-	- Nombre de usuario
-	- Información personal
-
-##### R.I.07. Control de cuentas con permisos sobre aspectos relevantes
-
-- Como presidente/técnico quiero poder acceder y editar la siguiente información de las cuentas de otros socios/administradores:
-	- Nombre de usuario
-	- archivos
-	- Información personal
-	- Permisos que a su vez consta de:
-		- Permiso de descarga
-		- Permiso de subida
-		- Permiso eliminación
-		- Permiso administrador
-		- Permiso permiso verificación
-		- Permiso de registro
-		- Permiso de uso de cuenta
-
-##### R.I.08. Gestión de material
-
-- Como administrador/presidente/técnico quiero poder acceder y editar la siguiente información de cada archivo:
-	- Formato
-	- Verificado
+- Como socio quiero poder acceder a la siguiente información de las mentorías:
+	- Mentor
+	- Mentorado
 	- Asignatura
- 	- Publicado 
+	- Archivos
 
-##### R.I.09. perfil técnico de control de aplicación
 
-- Como técnico quiero poder editar a la siguiente información de otras socios/administradores/presidente:
-	- Nombre de usuario
-	- archivos
-	- Información personal
+##### R.I.04. Información accesible de las peticiones
+
+- Como socio quiero poder acceder a la siguiente información de las peticiones:
+	- Usuario
+	- Asignatura
+	- Formato
+	- Mensaje del usuario
+	- Leído
+	- Cumplida
+	- Archivo
 
 #### 4.1.2. Reglas de negocio
 
