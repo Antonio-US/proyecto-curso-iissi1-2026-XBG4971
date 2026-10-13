@@ -28,7 +28,22 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 
 ## 2. Glosario de términos
 
-- Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
+#### NOX
+- Nombre propio del proyecto/servicio solicitado por la clienta.
+#### Archivos
+- Documento de carácter didáctico elaborado por personas basado en los conocimientos de ciertas áreas del ámbito que se desea estudiar.
+#### Usuario
+- Persona autorizada a participar dentro de la actividad que se realiza en la aplicación/servicio solicitado por la clienta. Se considera persona “autorizada” a aquella que sea miembro de la asociación.
+#### Autor
+- Persona que ha subido un archivo a la aplicación, concretamente su nombre de usuario.
+#### Información personal
+- Se entiende por información personal datos tales como el nombre, apellido, número de teléfono, correo electrónico y dirección entre otros, pero se excluyen nombre de usuario y contraseña.
+#### Asociación
+- Organización presidida actualmente por nuestra clienta y sobre la que se va a aplicar nuestro servicio.
+#### Socio / Miembro
+- Persona afiliada a la asociación a la que se presta servicio.
+#### Mentorado
+- Consiste en el asesoramiento a alguien de forma didáctica en alguna materia o ámbito.
 
 ## 3. Visión general del sistema
 
