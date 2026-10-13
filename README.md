@@ -1,6 +1,6 @@
 # Nox
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo L4-FJO-1
 
 1. Bolaños Sevillano, Alfredo
 2. Jimenez de la Fuente, Alvaro
