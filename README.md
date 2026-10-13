@@ -195,31 +195,80 @@ A continuación se dan diferentes definiciones de conceptos que se pueden ver en
 	- Archivo
 
 #### 4.1.2. Reglas de negocio
+#### 4.1.2. Reglas de negocio
 
 ##### R.N.01. Criterio de validación de material
-- Como presidenta de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos 
+
+- Como presidenta de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos
+
 ##### R.N.02. Organización de acceso a aplicación
+
 - Como presidenta quiero que todos lo usuarios posean un perfil completo (Nombre, contraseña, etc) dentro de la aplicación para poder ser fácilmente reconocibles
+
 ##### R.N.03. Mantenimiento eficiente
+
 - Como técnico debo tener la exclusividad del acceso al código para garantizar un sistema de gestión de errores eficiente y maximizar el control del mantenimiento de la aplicación tras su lanzamiento
+
 ##### R.N.04. Inicio de sesión
-- Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación 
+
+- Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación
+
 ##### R.N.05. Control sobre socios
+
+
 - Como presidenta quiero que solo puedan subir archivos los socios con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
+
 ##### R.N.06. Medidas para la moderación
+
+
 - Como administrador quiero que los usuarios suspensos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
+
 ##### R.N.07. Preservación de material
-- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente  
+
+
+- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente
+
 ##### R.N.08. Protección sobre derechos propios
+
+
 - Como técnico quiero que los usuarios no tengan acceso o derecho de manipulación de ningunos de sus permisos propios, para mantener la estabilidad de la jerarquía de permisos
+
 ##### R.N.09. Gestión de roles y privilegios
--  Como presidenta quiero tener la capacidad de poder eliminar los permisos de los socios en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicació
+
+
+- Como presidenta quiero tener la capacidad de poder eliminar los permisos de los socios en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicació
+
 ##### R.N.10. Renovación de usuarios
+
+
 - Como administrador quiero que todas las cuentas de los socios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
+
 ##### R.N.11. Control de calidad y utilidad
+
+
 - Como presidenta quiero que los archivos de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los archivos realmente útiles
+
 ##### R.N.12. Protección de datos
-- Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación 
+
+
+- Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación
+
+##### R.N.13. Permisos de edición de los socios
+
+- Como socio debo poder editar toda la información sobre mi cuenta salvo los permisos, a la asignatura y formato de mis archivos y de mis peticiones junto con el mensaje de usuario en esa ultima. También debo poder editar la valoración de los archivos ajenos, todo esto para poder hacer correcto uso de la aplicación 
+
+##### R.N.14. Permisos de lectura de los socios
+
+- Como socio debo poder leer toda la información de un archivo y el nombre de usuario y archivos de otros usuarios. También debo poder ver toda la información que puedo editar para hacer correcto uso de la aplicación 
+
+##### R.N.15. Permisos de edición y lectura de los administradores
+
+- Como administrador debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación, todo esto para cumplir correctamente mi función de administrador   
+
+##### R.N.16. Permisos de edición del presidente/técnicos
+
+-  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico
+
 
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
