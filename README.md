@@ -155,18 +155,6 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 #### 4.1.1. Requisitos de información
 
-- Autor: Persona que ha subido un archivo a la aplicación, concretamente su nombre de usuario. 
-- Verificación: Distintivo de un archivo que muestra que un usuario ha revisado el documento antes de mostrarlo como público.
-- Información Personal: Se entiende por información personal datos tales como el nombre, apellido, número de teléfono, correo electrónico y dirección entre otros, pero se excluyen nombre de usuario y contraseña.
-- Publicado: Indica si un archivo subido es visible para usuarios socios o no.
-- Permiso de administración: Permiso que habilita a un usuario para realizar las funciones de un administrador.
-- Permiso de subida: Permiso que habilita a un usuario subir archivos a la plataforma.
-- Permiso de descarga: Permite o no descargar archivos de la aplicación.
-- Permiso de verificación: Permite marcar los archivos dándoles el distintivo de verificado por un administrador.
-- Permiso de registro: Permite crear cuentas de usuario a partir de información personal.
-- Permiso de uso de cuentas: Concede el derecho de habilitar o deshabilitar el uso de una cuenta por completo, pero sin eliminarla.
-- Permiso de eliminación: Da la capacidad de eliminar cuentas de usuario.
-
 ##### R.I.01. Información accesible de los archivos
 
 - Como socio quiero poder acceder a la siguiente información de cada archivo:
