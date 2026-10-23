@@ -320,7 +320,13 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 **Prueba de aceptación**
 
 - El trato de la información se da conforme a la normativa de ASTRA de protección de datos
-##### R.N.13. Permisos de edición de los socios
+##### R.N.13. s
+- Como administrador quiero que los archivos que se suban a la aplicación tengan un tamaño límite de 50 MB y sean del tipo .pdf, .png, .jpg, .zip y extensiones propias de lenguajes de programación, para mantener el correcto funcionamiento e interacción con los usuarios.
+**Prueba de aceptación**
+- Intento subir un archivo de más de 50 MB, me da error.
+- Intento subir un archivo que no sea de las extensiones mencionadas, me da error.
+- En caso contrario puedo subir el archivo.
+##### R.N.14. Permisos de edición de los socios
 
 - Como socio debo poder editar toda la información sobre mi cuenta salvo los permisos, a la asignatura y formato de mis archivos y de mis peticiones junto con el mensaje de usuario en esa ultima. También debo poder editar la valoración de los archivos ajenos, todo esto para poder hacer correcto uso de la aplicación 
 
@@ -328,7 +334,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 - Cuando soy socio e intento editar la información sobre mi cuenta, asignatura y formato de mis archivos y valoración de los ajenos, mis peticiones o el mensaje de usuario de estas, no me da error
 - Si soy socio e intento editar cualquier otra cosa me da error
-##### R.N.14. Permisos de lectura de los socios
+##### R.N.15. Permisos de lectura de los socios
 
 - Como socio debo poder leer toda la información de un archivo y el nombre de usuario y archivos de otros usuarios. También debo poder ver toda la información que puedo editar para hacer correcto uso de la aplicación 
 
@@ -336,7 +342,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 - Cuando soy socio e intento leer la información sobre todos los archivos, el nombre y archivos de otros usuarios o cualquier otra información que puedo editar no me da error 
 - Si soy socio e intento leer cualquier otra cosa me da error
-##### R.N.15. Permisos de edición y lectura de los administradores
+##### R.N.16. Permisos de edición y lectura de los administradores
 
 - Como administrador debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación, todo esto para cumplir correctamente mi función de administrador   
 
@@ -344,7 +350,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 - Cuando soy administrador e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación no me da error 
 - Si soy administrador e intento editar o leer cualquier otra cosa me da error
-##### R.N.16. Permisos de edición del presidente/técnicos
+##### R.N.17. Permisos de edición del presidente/técnicos
 
 -  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico   
 
@@ -352,6 +358,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 - Cuando soy presidente/técnico e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios y administradores no me da error 
 - Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
+
 
 -- fin entregable 1 --
 
