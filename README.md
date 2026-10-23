@@ -9,17 +9,17 @@
 
 ## 1. Introducción al problema
 
-- Nuestro equipo se pone a disposición de la clienta Nadia Coronel Correa, quien preside una asociación estudiantil centrada en ámbitos académicos, por
+Nuestro equipo se pone a disposición de la clienta Nadia Coronel Correa, quien preside una asociación estudiantil centrada en ámbitos académicos, por
 lo que nuestro proyecto consistirá en proveer de un servicio de acceso a material de
 estudio, archivos realizados por estudiantes etc… .
-- En términos generales, la clienta solicita una aplicación que recoja archivos y material de
+En términos generales, la clienta solicita una aplicación que recoja archivos y material de
 estudio organizados en distintos repositorios para ponerlos al servicio de unos usuarios, que
 a su vez son socios de la asociación a la que se presta este proyecto. La aplicación
 distingue entre usuario corriente y usuario administrador. Un usuario corriente tiene que
 tener la posibilidad tanto de donar sus documentos de cualquier ámbito estudiantil
 pudiendo clasificarlo por sus características (grado universitario, curso… ) como de acceder
 y descargar otros archivos de la aplicación.
-- Por otro lado se distingue un usuario
+Por otro lado se distingue un usuario
 administrador perteneciente a la junta directiva de la asociación, un perfil con la capacidad
 de realizar todas las acciones de un usuario común y de aprobar o denegar documentos
 subidos por los estudiantes con el fin de verificar la validez de los mismos.
@@ -28,32 +28,57 @@ Versión extendida de la introducción al problema: [Acta de primera entrevista]
 
 ## 2. Glosario de términos
 
-#### NOX
-- Nombre propio del proyecto/servicio solicitado por la clienta.
-#### Archivos
-- Documento de carácter didáctico elaborado por personas basado en los conocimientos de ciertas áreas del ámbito que se desea estudiar.
-#### Usuario
-- Persona autorizada a participar dentro de la actividad que se realiza en la aplicación/servicio solicitado por la clienta. Se considera persona “autorizada” a aquella que sea miembro de la asociación.
-#### Autor
-- Persona que ha subido un archivo a la aplicación, concretamente su nombre de usuario.
-#### Información personal
-- Se entiende por información personal datos tales como el nombre, apellido, número de teléfono, correo electrónico y dirección entre otros, pero se excluyen nombre de usuario y contraseña.
-#### Asociación
-- Organización presidida actualmente por nuestra clienta y sobre la que se va a aplicar nuestro servicio.
-#### Socio / Miembro
-- Persona afiliada a la asociación a la que se presta servicio.
-#### Mentorado
-- Consiste en el asesoramiento a alguien de forma didáctica en alguna materia o ámbito.
+#### NOX:
+Nombre propio del proyecto/servicio solicitado por la clienta.
+#### Archivos:
+Documento de carácter didáctico elaborado por personas basado en los conocimientos de ciertas áreas del ámbito que se desea estudiar.
+#### Usuario:
+Persona autorizada a participar dentro de la actividad que se realiza en la aplicación/servicio solicitado por la clienta. Se considera persona “autorizada” a aquella que sea miembro de la asociación.
+#### Autor:
+Persona que ha subido un archivo a la aplicación, concretamente su nombre de usuario.
+#### Información personal:
+Se entiende por información personal datos tales como el nombre, apellido, número de teléfono, correo electrónico y dirección entre otros, pero se excluyen nombre de usuario y contraseña.
+#### Asociación:
+Organización presidida actualmente por nuestra clienta y sobre la que se va a aplicar nuestro servicio.
+#### Socio / Miembro:
+Persona afiliada a la asociación a la que se presta servicio.
+#### Mentorado:
+Consiste en el asesoramiento a alguien de forma didáctica en alguna materia o ámbito.
+#### Verificacion:
+Distintivo de un archivo que muestra que un usuario ha revisado el documento antes de mostrarlo como público.
+#### Publicado:
+Indica si un archivo subido es visible para usuarios socios o no.
+#### Permisos:
+##### de Administración:
+Permiso que habilita a un usuario para realizar las funciones de un administrador.
+##### de Subida:
+Permiso que habilita a un usuario subir archivos a la plataforma.
+##### de Descarga:
+Permite o no descargar archivos de la aplicación.
+##### de Verificación:
+Permite marcar los archivos dándoles el distintivo de verificado por un administrador.
+##### de Registro:
+Permite crear cuentas de usuario a partir de información personal.
+##### de Uso de cuentas:
+Concede el derecho de habilitar o deshabilitar el uso de una cuenta por completo, pero sin eliminarla.
+##### de Eliminación:
+Da la capacidad de eliminar cuentas de usuario.
 
 ## 3. Visión general del sistema
 
 ### 3.1. Requisitos generales
-- Registro de Material de Estudio: Como presidenta de la asociación de estudio Astra, quiero centralizar el material de estudio digital para proveer un buen servicio de aprendizaje a los socios de la asociación.
-- Organización de Repositorios y contenidos: Como Equipo directivo de Astra, queremos una búsqueda eficiente e intuitiva de los repositorios para facilitar el uso y gestión de la aplicación.
-- Control de Material: Como Encargados principales de la asociación queremos un sistema de  verificación del material privado para controlar los archivos puestos a disposición de nuestros miembros.
-- Gestión de material_ Como Junta Directiva de la asociación queremos manejar con libertad los documentos publicados y archivados para poder ofrecer un servicio completo y actualizado.
-- Inicio de Sesión en la aplicación: Como presidenta quiero un sistema de inicio de sesión para asegurar la integridad de la aplicación y sus beneficiarios.
-- Calificación de Servicios: Como proveedores queremos una forma de saber el nivel de satisfacción con el material de aprendizaje que compartimos
+#### R.G.01. Registro de material de estudio
+- Como presidenta de la asociación de estudio Astra, quiero centralizar el material de estudio digital para proveer un buen servicio de aprendizaje a los socios de la asociación.
+#### R.G.02. Repositorios y contenidos
+- Como Equipo directivo de Astra, queremos una búsqueda eficiente e intuitiva de los repositorios para facilitar el uso y gestión de la aplicación.
+#### R.G.03. Control de material
+- Como Encargados principales de la asociación queremos un sistema de  verificación del material privado para controlar los archivos puestos a disposición de nuestros miembros.
+#### R.G.04. Gestión del material
+- Como Junta Directiva de la asociación queremos manejar con libertad los documentos publicados y archivados para poder ofrecer un servicio completo y actualizado.
+#### R.G.05. Inicio de sesión
+- Como presidenta quiero un sistema de inicio de sesión para asegurar la integridad de la aplicación y sus beneficiarios.
+#### R.G.06. Calificación de archivos
+- Como proveedores queremos una forma de saber el nivel de satisfacción con el material de aprendizaje que compartimos
 
 
 ### 3.2. Usuarios del sistema
@@ -84,7 +109,7 @@ Como presidenta, quiero diferenciar entre usuarios ordinarios y autorizados, per
 Como presidenta, quiero limitar el acceso al repositorio de recursos académicos según se sea usuario o no, para tener un control del acceso a Nox. 
 
 #### R.F.05. Liberación de recursos académicos: 
-Como presidenta, quiero permitir que los usuarios suban sus recursos y que, una vez revisados, para quedar al libre uso del resto de miembros. 
+Como presidenta, quiero permitir que los usuarios suban sus recursos y que estén disponibles para el resto de usuarios una vez revisados, para quedar al libre uso del resto de miembros. 
 
 #### R.F.06. Gestión de información de los recursos: 
 Como  administrador, quiero gestionar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los archivos. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
@@ -108,7 +133,7 @@ Como presidenta, quiero permitir que a la hora de buscar dichos recursos pueda a
 Como usuario, quiero visualizar los recursos que vayan a descargarse para saber qué archivos van a ser utilizados. 
 
 #### R.F.13. Descarga de recursos: 
-Como usuario, quiero descargar los recursos que desee para tenerlos en mi dispositivo.
+Como usuario, quiero descargar los archivos que desee para tenerlos en mi dispositivo.
 
 #### R.F.14. Registro de descargas: 
 Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener constancia de la tendencia dentro de la plataforma que ofrece dichos archivos. 
@@ -128,15 +153,8 @@ Como administrador, quiero poder suspender las cuentas a los usuarios en caso de
 #### R.F.19. Gestión del estado de los recursos: 
 Como administrador, quiero actualizar el estado de cada recurso (pendiente de revisión, aprobado, rechazado, retirado) para determinar si el archivo puede ser descargado por los estudiantes. 
 
-**Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- Se debe aplicar la regla de negocio R.N.XX.
-- ...
-
 #### 4.1.1. Requisitos de información
-##### Definiciones
-A continuación se dan diferentes definiciones de conceptos que se pueden ver en estos requisitos. No se detallan todos los conceptos, solo aquellos que puedan generar confusión.
+
 - Autor: Persona que ha subido un archivo a la aplicación, concretamente su nombre de usuario. 
 - Verificación: Distintivo de un archivo que muestra que un usuario ha revisado el documento antes de mostrarlo como público.
 - Información Personal: Se entiende por información personal datos tales como el nombre, apellido, número de teléfono, correo electrónico y dirección entre otros, pero se excluyen nombre de usuario y contraseña.
@@ -246,7 +264,7 @@ A continuación se dan diferentes definiciones de conceptos que se pueden ver en
 - Si no introduzco mi nombre/número de socio y contraseña correctamente no puedo iniciar sesión
 ##### R.N.05. Control sobre socios
 
-- Como presidenta quiero que solo puedan subir archivos los socios con duración superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
+- Como presidenta quiero que solo puedan subir archivos los socios con antigüedad superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
 
 **Prueba de aceptación**
 
@@ -254,21 +272,22 @@ A continuación se dan diferentes definiciones de conceptos que se pueden ver en
 - Si soy un socio con una antigüedad superior a una semana e intento subir un archivo no me da error
 ##### R.N.06. Medidas para la moderación
 
-- Como administrador quiero que los usuarios suspensos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
+- Como administrador quiero que los usuarios suspendidos no puedan subir ni descargar archivos para mantener la calidad del contenido de la aplicación, sin impedir el estudio de los usuarios y como aliciente al uso correcto de la aplicación
 
 **Prueba de aceptación**
 
 - Como administrador puedo suspender a usuarios
-- Si estoy en una cuenta suspensa he intento subir o descargar archivos me da error
+- Si estoy en una cuenta suspendida he intento subir o descargar archivos me da error
 ##### R.N.07. Preservación de material
 
-- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente
+- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente, apareciendo en estos el autor como [borrado] para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente
 
 **Prueba de aceptación**
 
 - La cuenta de un usuario es eliminada
 - Intento iniciar sesión a esa cuenta y me da error
 - El contenido subido por esa cuenta sigue disponible
+- El autor del contenido subido por este usuario aparece como [borrado]
 ##### R.N.08. Protección sobre derechos propios
 
 - Como técnico quiero que los usuarios no tengan acceso o derecho de manipulación de ningunos de sus permisos propios, para mantener la estabilidad de la jerarquía de permisos
@@ -288,11 +307,11 @@ A continuación se dan diferentes definiciones de conceptos que se pueden ver en
 - Como administrador mis permisos pueden ser rebajados a los de socio
 ##### R.N.10. Renovación de usuarios
 
-- Como administrador quiero que todas las cuentas de los socios sean automáticamente suspensas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
+- Como administrador quiero que todas las cuentas de los socios sean automáticamente suspendidas en septiembre de cada año y los administradores tengamos que reactivarlas, para mantener la aplicación acorde a la renovación de miembros de la asociación ASTRA
 
 **Prueba de aceptación**
 
-- Llegado septiembre todas las cuentas de los socios son suspensa
+- Llegado septiembre todas las cuentas de los socios son suspendida
 - Como socio si intento subir o descargar archivos me da error
 - Como administrador, presidente o técnico no me veo afectado
 ##### R.N.11. Control de calidad y utilidad
