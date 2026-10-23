@@ -192,7 +192,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
         - Permiso de subida
         - Permiso eliminación
         - Permiso administrador
-        - Permiso permiso verificación
+        - Permiso de verificación
         - Permiso de registro
         - Permiso de uso de cuenta
 
