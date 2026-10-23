@@ -161,6 +161,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
     - Autor
     - Fecha de subida
     - Formato
+    - Dirección del archivo (enlace)
     - Nº de descargas
     - Valoración, que consta de:
 	    - Puntuación 
@@ -351,15 +352,6 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 - Cuando soy presidente/técnico e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios y administradores no me da error 
 - Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
-
-### 4.2. Mapa de historias de usuario (opcional)
-
-### 4.3. Requisitos no funcionales (opcional)
-
-**R.N.F. 01. Título requisito no funcional**
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
 
 -- fin entregable 1 --
 
