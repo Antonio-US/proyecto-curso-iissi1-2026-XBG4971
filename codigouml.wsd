@@ -1,0 +1,67 @@
+@startuml
+skinparam linetype ortho
+caption Vista Base
+
+entity Archivo 
+    Archivo : fechaSubida
+    Archivo : formato
+    Archivo : dirección
+    Archivo : numDescargas
+    Archivo : verificación
+entity Usuario
+    Usuario : nickname
+    Usuario : contraseña
+    Usuario : rol
+entity Permisos
+    Permisos : desc
+    Permisos : subida
+    Permisos : elim
+    Permisos : admin
+    Permisos : verif
+    Permisos : registro
+    Permisos : acceso
+entity InformaciónPersonal
+    InformaciónPersonal : nombre
+    InformaciónPersonal : apellidos
+    InformaciónPersonal : numeroSocio
+    InformaciónPersonal : teléfono
+    InformaciónPersonal : dirección
+    InformaciónPersonal : correo
+entity Asignatura
+    Asignatura : nombreAsig
+    Asignatura : titulación
+    Asignatura : añoCarrera
+
+entity Valoración
+    Valoración : puntuación
+    Valoración : comentario
+    Valoración : respuesta
+entity Peticiones
+    Peticiones : usuario
+    Peticiones : formato
+    Peticiones : mensaje
+    Peticiones : leído
+    Peticiones : cumplido
+    Peticiones : archivo
+entity Mentoría
+    Mentoría : mentor
+    Mentoría : mentorado
+
+'Estas tres uniones ocultas estan simplemente para que las flechas no se cruzen y quede más bonito
+InformaciónPersonal -[hidden]> Valoración
+InformaciónPersonal -[hidden]> Permisos
+Peticiones -[hidden]> Archivo
+
+Usuario --> Permisos
+Usuario --> InformaciónPersonal
+Usuario --> Archivo
+Archivo --> Asignatura
+
+Peticiones --> Archivo
+Peticiones --> Asignatura
+Peticiones --> Usuario
+Mentoría --> Archivo
+Mentoría --> Usuario
+Valoración --> Archivo
+
+@enduml
