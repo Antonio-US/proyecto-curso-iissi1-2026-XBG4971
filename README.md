@@ -362,11 +362,11 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 - Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
 
 
--- fin entregable 1 --
-
 ## 5. Modelo conceptual
 
 ### 5.1. Diagramas de clases UML
+
+![](uml.png)
 
 - con restricciones.
 
