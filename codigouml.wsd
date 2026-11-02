@@ -1,67 +1,98 @@
 @startuml
+
 skinparam linetype ortho
+skinparam Nodesep 125
 caption Vista Base
 
-entity Archivo 
-    Archivo : fechaSubida
-    Archivo : formato
-    Archivo : dirección
-    Archivo : numDescargas
-    Archivo : verificación
+' Tipos Enumerados
+enum EstadoRecurso
+	EstadoRecurso : PendienteRevisión
+	EstadoRecurso : Aprobado
+	EstadoRecurso : Rechazado
+	EstadoRecurso : Retirado
+
+enum RolUsuario
+	RolUsuario : Socio
+	RolUsuario : Administrador
+	RolUsuario : Presidente
+	RolUsuario : Técnico
+
+' Entidades y sus Atributos
 entity Usuario
-    Usuario : nickname
-    Usuario : contraseña
-    Usuario : rol
-entity Permisos
-    Permisos : desc
-    Permisos : subida
-    Permisos : elim
-    Permisos : admin
-    Permisos : verif
-    Permisos : registro
-    Permisos : acceso
+	Usuario : nombreUsuario
+	Usuario : contraseña
+	Usuario : fechaAntiguedad
+	Usuario : estadoCuenta
+	Usuario : rol:RolUsuario
+
 entity InformaciónPersonal
-    InformaciónPersonal : nombre
-    InformaciónPersonal : apellidos
-    InformaciónPersonal : numeroSocio
-    InformaciónPersonal : teléfono
-    InformaciónPersonal : dirección
-    InformaciónPersonal : correo
+	InformaciónPersonal : nombre
+	InformaciónPersonal : apellidos
+	InformaciónPersonal : numSocio
+	InformaciónPersonal : teléfono
+	InformaciónPersonal : dirección
+	InformaciónPersonal : correo
+
+entity Permisos
+	Permisos : desc
+	Permisos : subida
+	Permisos : elim
+	Permisos : admin
+	Permisos : verif
+	Permisos : registro
+	Permisos : acceso
+
+entity Archivo
+	Archivo : fechaSubida
+	Archivo : formato
+	Archivo : direcciónArchivo
+	Archivo : numDescargas
+	Archivo : verificado
+	Archivo : estado:EstadoRecurso
+
 entity Asignatura
-    Asignatura : nombreAsig
-    Asignatura : titulación
-    Asignatura : añoCarrera
+	Asignatura : nombreAsignatura
+	Asignatura : titulación
+	Asignatura : añoCarrera
 
-entity Valoración
-    Valoración : puntuación
-    Valoración : comentario
-    Valoración : respuesta
-entity Peticiones
-    Peticiones : usuario
-    Peticiones : formato
-    Peticiones : mensaje
-    Peticiones : leído
-    Peticiones : cumplido
-    Peticiones : archivo
+entity valoración
+	valoración : puntuación
+	valoración : reseña
+	valoración : respuestaAdministrador
+
+entity Petición
+	Petición : mensajeUsuario
+	Petición : formato
+	Petición : leido
+	Petición : cumplida
+
 entity Mentoría
-    Mentoría : mentor
-    Mentoría : mentorado
+    Mentoría : fechaInicio
 
-'Estas tres uniones ocultas estan simplemente para que las flechas no se cruzen y quede más bonito
-InformaciónPersonal -[hidden]> Valoración
-InformaciónPersonal -[hidden]> Permisos
-Peticiones -[hidden]> Archivo
+'Esta unión oculta está simplemente para que los enum aparezcan uno encima del otro y quede más compacto
+    
+EstadoRecurso -[hidden]- RolUsuario
 
-Usuario --> Permisos
-Usuario --> InformaciónPersonal
-Usuario --> Archivo
-Archivo --> Asignatura
+Usuario "1" *--u- "1" InformaciónPersonal : posee >
+Usuario "1" *--u- "1" Permisos : disponeDe >
 
-Peticiones --> Archivo
-Peticiones --> Asignatura
-Peticiones --> Usuario
-Mentoría --> Archivo
-Mentoría --> Usuario
-Valoración --> Archivo
 
-@enduml
+Usuario "0..1" -- "0..*" Archivo : sube >
+Usuario "0..2" ---- "0..*" Archivo : revisa >
+Usuario "0..*" -- "0..*" Archivo : descarga >
+(Usuario, Archivo) .. valoración
+
+Archivo "0..*" --- "1" Asignatura : perteneceA >
+
+Usuario "1" -l- "0..*" Petición : realiza >
+Petición "0..*" -- "1" Asignatura : solicitaSobre >
+Petición "0..*" -- "0..1" Archivo : satisfaceCon >
+
+Usuario "1\n(mentor)" -- "0..*" Mentoría : imparte >
+Usuario "1..\n(mentorado)" -- "0..*" Mentoría : recibe >
+
+Mentoría "0..*" -- "1" Asignatura : trataSobre >
+Mentoría "0..*" -- "0..*" Archivo : utiliza >
+
+
+@endluml
