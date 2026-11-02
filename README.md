@@ -178,6 +178,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 - Como usuario quiero poder acceder a la siguiente información de las cuentas:
     - Nombre de usuario
     - Contraseña
+    - Rol
     - Archivos, que debe de contar con:
         - Archivo
     - Información personal, que debe constar de:
@@ -203,6 +204,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 	- Mentorado
 	- Asignatura
 	- Archivos
+    - Fecha de inicio
 
 
 ##### R.I.04. Información accesible de las peticiones
