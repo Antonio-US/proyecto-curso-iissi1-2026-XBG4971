@@ -5,11 +5,6 @@ skinparam Nodesep 125
 caption Vista Base
 
 ' Tipos Enumerados
-enum EstadoRecurso
-	EstadoRecurso : PendienteRevisión
-	EstadoRecurso : Aprobado
-	EstadoRecurso : Rechazado
-	EstadoRecurso : Retirado
 
 enum RolUsuario
 	RolUsuario : Socio
@@ -22,7 +17,6 @@ entity Usuario
 	Usuario : nombreUsuario
 	Usuario : contraseña
 	Usuario : fechaAntiguedad
-	Usuario : estadoCuenta
 	Usuario : rol:RolUsuario
 
 entity InformaciónPersonal
@@ -48,7 +42,6 @@ entity Archivo
 	Archivo : direcciónArchivo
 	Archivo : numDescargas
 	Archivo : verificado
-	Archivo : estado:EstadoRecurso
 
 entity Asignatura
 	Asignatura : nombreAsignatura
@@ -69,9 +62,6 @@ entity Petición
 entity Mentoría
     Mentoría : fechaInicio
 
-'Esta unión oculta está simplemente para que los enum aparezcan uno encima del otro y quede más compacto
-    
-EstadoRecurso -[hidden]- RolUsuario
 
 Usuario "1" *--u- "1" InformaciónPersonal : posee >
 Usuario "1" *--u- "1" Permisos : disponeDe >
