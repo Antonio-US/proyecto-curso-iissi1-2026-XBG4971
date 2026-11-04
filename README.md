@@ -383,7 +383,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 
 ![](vista1.png)
-
+![](Vista 2.png)
 
 ### 5.2. Escenarios de prueba
 
