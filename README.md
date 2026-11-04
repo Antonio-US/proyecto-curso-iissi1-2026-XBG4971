@@ -322,7 +322,7 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 **Prueba de aceptación**
 
 - El trato de la información se da conforme a la normativa de ASTRA de protección de datos
-##### R.N.13. s
+##### R.N.13. Control sobre el formato de los archivos
 - Como administrador quiero que los archivos que se suban a la aplicación tengan un tamaño límite de 50 MB y sean del tipo .pdf, .png, .jpg, .zip y extensiones propias de lenguajes de programación, para mantener el correcto funcionamiento e interacción con los usuarios.
 **Prueba de aceptación**
 - Intento subir un archivo de más de 50 MB, me da error.
