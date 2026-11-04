@@ -360,8 +360,11 @@ Como administrador, quiero actualizar el estado de cada recurso (pendiente de re
 
 - Cuando soy presidente/técnico e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios y administradores no me da error 
 - Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
-
-
+##### R.N.18. Edición de archivos no verificados
+- Como usuario quiero poder editar/eliminar mis archivos subidos antes de que sean verificados.
+  **Prueba de aceptación**
+- Yo he subido un archivo que no está verificado y lo edito a posteriori.
+- Yo soy autor de un archivo subido y verificado, intento cambiarlo y me da error.
 ## 5. Modelo conceptual
 
 ### 5.1. Diagramas de clases UML
