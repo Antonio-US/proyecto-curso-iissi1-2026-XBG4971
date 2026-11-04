@@ -327,7 +327,9 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - El trato de la información se da conforme a la normativa de ASTRA de protección de datos
 ##### R.N.13. Control sobre el formato de los archivos
 - Como administrador quiero que los archivos que se suban a la aplicación tengan un tamaño límite de 50 MB y sean del tipo .pdf, .png, .jpg, .zip y extensiones propias de lenguajes de programación, para mantener el correcto funcionamiento e interacción con los usuarios.
+
 **Prueba de aceptación**
+
 - Intento subir un archivo de más de 50 MB, me da error.
 - Intento subir un archivo que no sea de las extensiones mencionadas, me da error.
 - En caso contrario puedo subir el archivo.
@@ -355,6 +357,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 - Cuando soy administrador e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación no me da error 
 - Si soy administrador e intento editar o leer cualquier otra cosa me da error
+- 
 ##### R.N.17. Permisos de edición del presidente/técnicos
 
 -  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico   
@@ -365,7 +368,9 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
 ##### R.N.18. Edición de archivos no verificados
 - Como usuario quiero poder editar/eliminar mis archivos subidos antes de que sean verificados.
-  **Prueba de aceptación**
+  
+**Prueba de aceptación**
+
 - Yo he subido un archivo que no está verificado y lo edito a posteriori.
 - Yo soy autor de un archivo subido y verificado, intento cambiarlo y me da error.
 ## 5. Modelo conceptual
