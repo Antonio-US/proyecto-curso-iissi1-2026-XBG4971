@@ -1,7 +1,7 @@
 @startuml
 
 skinparam linetype ortho
-skinparam Nodesep 125
+skinparam Nodesep 110
 caption Vista Base
 
 ' Tipos Enumerados
@@ -48,10 +48,10 @@ entity Asignatura
 	Asignatura : titulación
 	Asignatura : añoCarrera
 
-entity valoración
-	valoración : puntuación
-	valoración : reseña
-	valoración : respuestaAdministrador
+entity Valoración
+	Valoración : puntuación
+	Valoración : reseña
+	Valoración : respuestaAdministrador
 
 entity Petición
 	Petición : mensajeUsuario
@@ -62,27 +62,32 @@ entity Petición
 entity Mentoría
     Mentoría : fechaInicio
 
+entity Rechazo
+	Rechazo : razón
+
 
 Usuario "1" *--u- "1" InformaciónPersonal : posee >
-Usuario "1" *--u- "1" Permisos : disponeDe >
+Usuario "1" *-u-- "1" Permisos : disponeDe >
 
 
-Usuario "0..1" -- "0..*" Archivo : sube >
-Usuario "0..2" ---- "0..*" Archivo : revisa >
-Usuario "0..*" -- "0..*" Archivo : descarga >
-(Usuario, Archivo) .. valoración
+Usuario "0..1" -- "*" Archivo : sube >
+Usuario "0..2" -- "*" Archivo : revisa >
+(Usuario,Archivo) .. Rechazo
+Usuario "1" -- "*" Archivo : edita >
+Usuario "*" -- "*" Archivo : descarga >
+(Usuario, Archivo) .. Valoración
 
-Archivo "0..*" --- "1" Asignatura : perteneceA >
+Archivo "*" --- "1" Asignatura : perteneceA >
 
-Usuario "1" -l- "0..*" Petición : realiza >
-Petición "0..*" -- "1" Asignatura : solicitaSobre >
-Petición "0..*" -- "0..1" Archivo : satisfaceCon >
+Usuario "1" --- "*" Petición : realiza >
+Petición "*" -- "1" Asignatura : solicitaSobre >
+Petición "*" -- "0..1" Archivo : satisfaceCon >
 
-Usuario "1\n(mentor)" -- "0..*" Mentoría : imparte >
-Usuario "1..\n(mentorado)" -- "0..*" Mentoría : recibe >
+Usuario "1\n(mentor)" -- "*" Mentoría : imparte >
+Usuario "1..\n(mentorado)" -- "*" Mentoría : recibe >
 
-Mentoría "0..*" -- "1" Asignatura : trataSobre >
-Mentoría "0..*" -- "0..*" Archivo : utiliza >
+Mentoría "*" -- "1" Asignatura : trataSobre >
+Mentoría "*" -l- "*" Archivo : utiliza >
 
 
 @endluml
