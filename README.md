@@ -383,7 +383,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 
 ![](Vista_1.png)
-![](Vista2.png)
+
 ![](vista3.png)
 ![](vista4.png)
 ![](Vista5.png)
