@@ -381,6 +381,10 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 - con restricciones.
 
+
+![](vista1.png)
+
+
 ### 5.2. Escenarios de prueba
 
 - con descripción textual y diagrama de objetos UML.
