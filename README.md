@@ -381,16 +381,35 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 - con restricciones.
 
+#### Vista 1
 
 ![](Vista_1.png)
+
+#### Vista 2
+
 ![](Vista2.png)
+
+#### Vista 3
+
 ![](vista3.png)
+
+#### Vista 4
+
 ![](vista4.png)
+
+#### Vista 5
+
 ![](Vista5.png)
 
 ### 5.2. Escenarios de prueba
 
 - con descripción textual y diagrama de objetos UML.
+
+#### Vista 1
+
+![](Vista1Objetos.png)
+
+En la vista 1 tenemos dos usuarios, uno socio y otro administrador, ambos teniendo un perfil con datos completos y coherentes. Vemos que el socio cuenta con datos personales privados, y además descarga un archivo que está con visibilidad público ya que su atributo verificado ha sido incrementado por dos administradores, por tanto es apto para el uso. Sin embargo, el socio sube un archivo que incumple la normativa, por lo que es justificadamente rechazado por un administrador, y se niegan al usuario socio los permisos de subida y descarga, que se ponen a 0.
 
 ## 6. Matrices de trazabilidad
 
