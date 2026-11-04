@@ -335,7 +335,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - En caso contrario puedo subir el archivo.
 ##### R.N.14. Permisos de edición de los socios
 
-- Como socio debo poder editar toda la información sobre mi cuenta salvo los permisos, a la asignatura y formato de mis archivos y de mis peticiones junto con el mensaje de usuario en esa ultima. También debo poder editar la valoración de los archivos ajenos, todo esto para poder hacer correcto uso de la aplicación 
+- Como socio debo poder editar toda la información sobre mi cuenta salvo los permisos, la asignatura y formato de mis archivos y de mis peticiones junto con el mensaje de usuario en esa última. También debo poder editar la valoración de los archivos ajenos, todo esto para poder hacer correcto uso de la aplicación 
 
 **Prueba de aceptación**
 
