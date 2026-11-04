@@ -152,7 +152,10 @@ Como administrador, quiero poder suspender las cuentas a los usuarios en caso de
 
 #### R.F.19. Gestión del estado de los recursos: 
 Como administrador, quiero actualizar el estado de cada recurso (pendiente de revisión, aprobado, rechazado, retirado) para determinar si el archivo puede ser descargado por los estudiantes. 
-
+#### R.F.20. Registro de mentorías
+Como presidenta quiero que queden registradas todas las mentorías en realización para gestionar la información referente a las actividades de mentoría.
+#### R.F.21. Petición de recursos: 
+Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el material concreto demandado siendo los administradores los responsables de satisfacer las peticiones para complementar los servicios ofrecidos por la aplicación.
 #### 4.1.1. Requisitos de información
 
 ##### R.I.01. Información accesible de los archivos
