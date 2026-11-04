@@ -1,0 +1,89 @@
+@startuml
+
+skinparam linetype ortho
+skinparam Nodesep 110
+caption Vista Base
+
+' Tipos Enumerados
+
+enum RolUsuario
+	RolUsuario : Socio
+	RolUsuario : Administrador
+	RolUsuario : Presidente
+	RolUsuario : Técnico
+
+' Entidades y sus Atributos
+entity Usuario
+	Usuario : nombreUsuario
+	Usuario : contraseña
+	Usuario : fechaAntiguedad
+	Usuario : rol:RolUsuario
+
+entity InformaciónPersonal
+	InformaciónPersonal : nombre
+	InformaciónPersonal : apellidos
+	InformaciónPersonal : numSocio
+	InformaciónPersonal : teléfono
+	InformaciónPersonal : dirección
+	InformaciónPersonal : correo
+
+entity Permisos
+	Permisos : desc
+	Permisos : subida
+	Permisos : elim
+	Permisos : admin
+	Permisos : verif
+	Permisos : registro
+	Permisos : acceso
+
+entity Archivo
+	Archivo : fechaSubida
+	Archivo : formato
+	Archivo : direcciónArchivo
+	Archivo : numDescargas
+	Archivo : verificado
+
+entity Asignatura
+	Asignatura : nombreAsignatura
+	Asignatura : titulación
+	Asignatura : añoCarrera
+
+entity valoración
+	valoración : puntuación
+	valoración : reseña
+	valoración : respuestaAdministrador
+
+entity Petición
+	Petición : mensajeUsuario
+	Petición : formato
+	Petición : leido
+	Petición : cumplida
+
+entity Mentoría
+    Mentoría : fechaInicio
+
+
+Usuario "1" *--u- "1" InformaciónPersonal : posee >
+Usuario "1" *--u- "1" Permisos : disponeDe >
+
+
+Usuario "0..1" -- "*" Archivo : sube >
+Usuario "0..2" -- "*" Archivo : revisa >
+Usuario "1" -- "*" Archivo : edita >
+Usuario "*" -- "*" Archivo : descarga >
+(Usuario, Archivo) .. valoración
+
+Archivo "*" --- "1" Asignatura : perteneceA >
+
+Usuario "1" -l- "*" Petición : realiza >
+Petición "*" -- "1" Asignatura : solicitaSobre >
+Petición "*" -- "0..1" Archivo : satisfaceCon >
+
+Usuario "1\n(mentor)" -- "*" Mentoría : imparte >
+Usuario "1..\n(mentorado)" -- "*" Mentoría : recibe >
+
+Mentoría "*" -- "1" Asignatura : trataSobre >
+Mentoría "*" -l- "*" Archivo : utiliza >
+
+
+@endluml
