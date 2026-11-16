@@ -377,29 +377,29 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 ### 5.1. Diagramas de clases UML
 
-![](@startuml.png)
+
 
 - con restricciones.
 
 #### Vista 1
 
-![](Vista_1.png)
+
 
 #### Vista 2
 
-![](Vista2.png)
+
 
 #### Vista 3
 
-![](vista3.png)
+
 
 #### Vista 4
 
-![](vista4.png)
+
 
 #### Vista 5
 
-![](Vista5.png)
+
 
 ### 5.2. Escenarios de prueba
 
