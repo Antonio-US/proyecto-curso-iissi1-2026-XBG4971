@@ -80,6 +80,7 @@ Usuario "0..2" --- "*" Archivo : revisa >
 Usuario "1" -- "*" Archivo : edita >
 Usuario "*" -- "*" Archivo : descarga >
 (Usuario, Archivo) .. Valoración
+Usuario "1" -- "*" Valoración : responde >
 
 Archivo "*" --- "1" Asignatura : perteneceA >
 
@@ -92,6 +93,7 @@ Usuario "1..\n(mentorado)" -- "*" Mentoría : recibe >
 
 Mentoría "*" -- "1" Asignatura : trataSobre >
 Mentoría "*" -l- "*" Archivo : utiliza >
+
 
 
 @endluml
