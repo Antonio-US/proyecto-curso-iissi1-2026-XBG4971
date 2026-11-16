@@ -18,23 +18,26 @@ entity Usuario
 	Usuario : contraseña
 	Usuario : fechaAntiguedad
 	Usuario : rol:RolUsuario
+	Usuario : nombre
+	Usuario : apellidos
+	Usuario : numSocio
+	Usuario : teléfono
+	Usuario : dirección
+	Usuario : correo
 
-entity InformaciónPersonal
-	InformaciónPersonal : nombre
-	InformaciónPersonal : apellidos
-	InformaciónPersonal : numSocio
-	InformaciónPersonal : teléfono
-	InformaciónPersonal : dirección
-	InformaciónPersonal : correo
+entity ListaPermisos
+	ListaPermisos : descarga
+	ListaPermisos : subida
+	ListaPermisos : eliminación
+	ListaPermisos : administración
+	ListaPermisos : verificación
+	ListaPermisos : registro
+	ListaPermisos : acceso
 
 entity Permisos
-	Permisos : desc
-	Permisos : subida
-	Permisos : elim
-	Permisos : admin
-	Permisos : verif
-	Permisos : registro
-	Permisos : acceso
+	Permisos : fecha
+	Permisos : otorgado
+
 
 entity Archivo
 	Archivo : fechaSubida
@@ -61,17 +64,18 @@ entity Petición
 
 entity Mentoría
     Mentoría : fechaInicio
+	Mentoría : fechaFin
 
 entity Rechazo
 	Rechazo : razón
 
 
-Usuario "1" *--u- "1" InformaciónPersonal : posee >
-Usuario "1" *-u-- "1" Permisos : disponeDe >
 
+Usuario "1" *-u-- "1" Permisos : disponeDe >
+Permisos "1" *-r-- "1" ListaPermisos : cuentaCon >
 
 Usuario "0..1" -- "*" Archivo : sube >
-Usuario "0..2" -- "*" Archivo : revisa >
+Usuario "0..2" --- "*" Archivo : revisa >
 (Usuario,Archivo) .. Rechazo
 Usuario "1" -- "*" Archivo : edita >
 Usuario "*" -- "*" Archivo : descarga >
@@ -88,6 +92,9 @@ Usuario "1..\n(mentorado)" -- "*" Mentoría : recibe >
 
 Mentoría "*" -- "1" Asignatura : trataSobre >
 Mentoría "*" -l- "*" Archivo : utiliza >
+
+
+@endluml
 
 
 @endluml
