@@ -26,6 +26,7 @@ entity Usuario
 	Usuario : correo
 
 entity ListaPermisos
+	ListaPermisos : fechaCambio
 	ListaPermisos : descarga
 	ListaPermisos : subida
 	ListaPermisos : eliminación
