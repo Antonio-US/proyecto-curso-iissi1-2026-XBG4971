@@ -130,35 +130,35 @@ Como usuario, quiero poder buscar los recursos académicos que desee mediante el
 Como presidenta, quiero permitir que a la hora de buscar dichos recursos pueda aplicarse un filtrado por parámetros como la asignatura, carrera o curso, para alcanzar más rápido al resultado deseado. 
 
 #### R.F.12. Consulta de recursos: 
-Como usuario, quiero visualizar los recursos que vayan a descargarse para saber qué archivos van a ser utilizados. 
+Como usuario, quiero realizar una búsqueda de recursos académicos en un rango de archivos a elegir, para tener conocimiento de las opciones acordes a mis necesidades.
 
 #### R.F.13. Descarga de recursos: 
-Como usuario, quiero descargar los archivos que desee para tenerlos en mi dispositivo.
+Como administrador, quiero que los archivos puedan descargarse a elección del usuario contabilizando el número de descargas para cada archivo, para recabar datos de utilidad o fiabilidad entre otros.
 
-#### R.F.14. Registro de descargas: 
-Como administrador, quiero registrar el número de descargas realizadas en cada recurso académico, para mantener constancia de la tendencia dentro de la plataforma que ofrece dichos archivos. 
-
-#### R.F.15. Reporte de recursos: 
+#### R.F.14. Reporte de recursos: 
 Como usuario, quiero poder detectar materiales que infrinjan normas de ASTRA, teniendo la posibilidad de comunicar incidencias relacionadas con el recurso académico para poder calificar la utilidad de los archivos mediante un sistema de calificación. 
 
-#### R.F.16. Gestión de incidencias y moderación: 
+#### R.F.15. Gestión de incidencias y moderación: 
 Como presidente, quiero gestionar las incidencias comunicadas por los usuarios para emprender las acciones correspondientes sobre los usuarios que hayan subido el recurso académico infractor. 
 
-#### R.F.17. Gestión de usuarios: 
+#### R.F.16. Gestión de usuarios: 
 Como administrador, quiero gestionar las cuentas de los usuarios, para mantener el control de acceso a Nox mediante un panel de administrador donde se pueda añadir, editar y eliminar cuentas de ususario así como nivel de permisos, derechos de descargas de archivos... etc. 
 
-#### R.F.18. Suspensión y restauración del acceso: 
+#### R.F.17. Suspensión y restauración del acceso: 
 Como administrador, quiero poder suspender las cuentas a los usuarios en caso de incumplir la normativa así como la posibilidad de restaurarlas posteriormente, para poder permitir de nuevo la visualización de archivos y recursos de Nox. 
 
-#### R.F.19. Gestión del estado de los recursos: 
+#### R.F.18. Gestión del estado de los recursos: 
 Como administrador, quiero actualizar el estado de cada recurso (pendiente de revisión, aprobado, rechazado, retirado) para determinar si el archivo puede ser descargado por los estudiantes. 
-#### R.F.20. Registro de mentorías
+
+#### R.F.19. Registro de mentorías
 Como presidenta quiero que queden registradas todas las mentorías en realización para gestionar la información referente a las actividades de mentoría.
-#### R.F.21. Petición de recursos: 
+
+#### R.F.20. Petición de recursos: 
 Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el material concreto demandado siendo los administradores los responsables de satisfacer las peticiones para complementar los servicios ofrecidos por la aplicación.
+
 #### 4.1.1. Requisitos de información
 
-##### R.I.01. Información accesible de los archivos
+##### R.I.01. Información visible de los archivos
 
 - Como socio quiero poder acceder a la siguiente información de cada archivo:
     - Autor
@@ -176,7 +176,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
         - Titulación
         - Año de la carrera
 
-##### R.I.02. Información accesible de las cuentas de los usuarios
+##### R.I.02. Información visible de las cuentas de los usuarios
 
 - Como usuario quiero poder acceder a la siguiente información de las cuentas:
     - Nombre de usuario
@@ -200,7 +200,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
         - Permiso de registro
         - Permiso de uso de cuenta
 
-##### R.I.03. Información accesible de las mentorías
+##### R.I.03. Información visible de las mentorías
 
 - Como socio quiero poder acceder a la siguiente información de las mentorías:
 	- Mentor
@@ -210,7 +210,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
     - Fecha de inicio
 
 
-##### R.I.04. Información accesible de las peticiones
+##### R.I.04. Información visible de las peticiones
 
 - Como socio quiero poder acceder a la siguiente información de las peticiones:
 	- Usuario
@@ -242,7 +242,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - El perfil de todos los usuarios está completo (Cuentan con nombre, contraseña, etc)
 ##### R.N.03. Mantenimiento eficiente
 
-- Como técnico debo tener la exclusividad del acceso al código para garantizar un sistema de gestión de errores eficiente y maximizar el control del mantenimiento de la aplicación tras su lanzamiento
+- Como presidenta quiero tener la posibilidad de delegar el mantenimiento de la aplicación mediante un usuario técnico que tenga la exclusividad de acceso al código.
 
 **Prueba de aceptación**
 
@@ -318,14 +318,8 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Si el archivo supera cierta puntuación no es eliminado al comienzo del próximo curso
 - Si el archivo no supera cierto numero de descargas es eliminado al comienzo del próximo curso
 - Si el archivo no supera cierta puntuación  es eliminado al comienzo del próximo curso
-##### R.N.12. Protección de datos
 
-- Como presidenta debo asegurar que el trato de la información de los usuarios se de en correspondencia con la normativa de ASTRA de protección de datos para mantener la integridad de la asociación
-
-**Prueba de aceptación**
-
-- El trato de la información se da conforme a la normativa de ASTRA de protección de datos
-##### R.N.13. Control sobre el formato de los archivos
+##### R.N.12. Control sobre el formato de los archivos
 - Como administrador quiero que los archivos que se suban a la aplicación tengan un tamaño límite de 50 MB y sean del tipo .pdf, .png, .jpg, .zip y extensiones propias de lenguajes de programación, para mantener el correcto funcionamiento e interacción con los usuarios.
 
 **Prueba de aceptación**
@@ -333,7 +327,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Intento subir un archivo de más de 50 MB, me da error.
 - Intento subir un archivo que no sea de las extensiones mencionadas, me da error.
 - En caso contrario puedo subir el archivo.
-##### R.N.14. Permisos de edición de los socios
+##### R.N.13. Permisos de edición de los socios
 
 - Como socio debo poder editar toda la información sobre mi cuenta salvo los permisos, la asignatura y formato de mis archivos y de mis peticiones junto con el mensaje de usuario en esa última. También debo poder editar la valoración de los archivos ajenos, todo esto para poder hacer correcto uso de la aplicación 
 
@@ -341,7 +335,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 - Cuando soy socio e intento editar la información sobre mi cuenta, asignatura y formato de mis archivos y valoración de los ajenos, mis peticiones o el mensaje de usuario de estas, no me da error
 - Si soy socio e intento editar cualquier otra cosa me da error
-##### R.N.15. Permisos de lectura de los socios
+##### R.N.14. Permisos de lectura de los socios
 
 - Como socio debo poder leer toda la información de un archivo y el nombre de usuario y archivos de otros usuarios. También debo poder ver toda la información que puedo editar para hacer correcto uso de la aplicación 
 
@@ -349,7 +343,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 - Cuando soy socio e intento leer la información sobre todos los archivos, el nombre y archivos de otros usuarios o cualquier otra información que puedo editar no me da error 
 - Si soy socio e intento leer cualquier otra cosa me da error
-##### R.N.16. Permisos de edición y lectura de los administradores
+##### R.N.15. Permisos de edición y lectura de los administradores
 
 - Como administrador debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación, todo esto para cumplir correctamente mi función de administrador   
 
@@ -358,7 +352,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Cuando soy administrador e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación no me da error 
 - Si soy administrador e intento editar o leer cualquier otra cosa me da error
 - 
-##### R.N.17. Permisos de edición del presidente/técnicos
+##### R.N.16. Permisos de edición del presidente/técnicos
 
 -  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico   
 
@@ -366,7 +360,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 - Cuando soy presidente/técnico e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios y administradores no me da error 
 - Si soy presidente/técnico e intento editar o leer cualquier otra cosa me da error
-##### R.N.18. Edición de archivos no verificados
+##### R.N.17. Edición de archivos no verificados
 - Como usuario quiero poder editar/eliminar mis archivos subidos antes de que sean verificados.
   
 **Prueba de aceptación**
