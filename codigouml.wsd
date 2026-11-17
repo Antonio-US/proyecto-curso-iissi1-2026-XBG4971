@@ -34,11 +34,6 @@ entity ListaPermisos
 	ListaPermisos : registro
 	ListaPermisos : acceso
 
-entity Permisos
-	Permisos : fecha
-	Permisos : otorgado
-
-
 entity Archivo
 	Archivo : fechaSubida
 	Archivo : formato
@@ -71,8 +66,8 @@ entity Rechazo
 
 
 
-Usuario "1" *-u-- "1" Permisos : disponeDe >
-Permisos "1" *-r-- "1" ListaPermisos : cuentaCon >
+
+Usuario "1" *-u-- "1" ListaPermisos : cuentaCon >
 
 Usuario "0..1" -- "*" Archivo : sube >
 Usuario "0..2" --- "*" Archivo : revisa >
