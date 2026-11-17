@@ -68,7 +68,7 @@ Da la capacidad de eliminar cuentas de usuario.
 
 ### 3.1. Requisitos generales
 #### R.G.01. Registro de material de estudio
-- Como presidenta de la asociación de estudio Astra, quiero centralizar el material de estudio digital para proveer un buen servicio de aprendizaje a los socios de la asociación.
+- Como presidente de la asociación de estudio Astra, quiero centralizar el material de estudio digital para proveer un buen servicio de aprendizaje a los socios de la asociación.
 #### R.G.02. Repositorios y contenidos
 - Como Equipo directivo de Astra, queremos una búsqueda eficiente e intuitiva de los repositorios para facilitar el uso y gestión de la aplicación.
 #### R.G.03. Control de material
@@ -76,7 +76,7 @@ Da la capacidad de eliminar cuentas de usuario.
 #### R.G.04. Gestión del material
 - Como Junta Directiva de la asociación queremos manejar con libertad los documentos publicados y archivados para poder ofrecer un servicio completo y actualizado.
 #### R.G.05. Inicio de sesión
-- Como presidenta quiero un sistema de inicio de sesión para asegurar la integridad de la aplicación y sus beneficiarios.
+- Como presidente quiero un sistema de inicio de sesión para asegurar la integridad de la aplicación y sus beneficiarios.
 #### R.G.06. Calificación de archivos
 - Como proveedores queremos una forma de saber el nivel de satisfacción con el material de aprendizaje que compartimos
 
@@ -97,19 +97,19 @@ Da la capacidad de eliminar cuentas de usuario.
 - A continuación se redactan los requisitos funcionales que describen las principales funcionalidades que NOX debe proveer. Gestionar el repositorio académico de ASTRA, permitiendo a los estudiantes compartir, consultar y utilizar recursos académicos bajo un sistema de control de acceso y moderación. Así, los requisitos funcionales son los siguientes:
 
 #### R.F.01. Registro de usuarios: 
-Como presidenta, quiero permitir a los administradores crear una cuenta de usuario entregando los datos personales que la aplicación les pida, para que Nox pueda identificar los usuarios que accedan al sistema. 
+Como presidente, quiero permitir a los administradores crear una cuenta de usuario entregando los datos personales que la aplicación les pida, para que Nox pueda identificar los usuarios que accedan al sistema. 
 
 #### R.F.02. Autenticación de usuarios: 
-Como presidenta, quiero que Nox permita realizar inicio y cierre de sesión aplicando un método de autenticación para que los usuarios puedan identificarse. 
+Como presidente, quiero que Nox permita realizar inicio y cierre de sesión aplicando un método de autenticación para que los usuarios puedan identificarse. 
 
 #### R.F.03. Gestión de roles y permisos: 
-Como presidenta, quiero diferenciar entre usuarios ordinarios y autorizados, permitiendo establecer roles y permisos distintos para gestionar y controlar las funciones que cada usuario pueda desempeñar. 
+Como presidente, quiero diferenciar entre usuarios ordinarios y autorizados, permitiendo establecer roles y permisos distintos para gestionar y controlar las funciones que cada usuario pueda desempeñar. 
 
 #### R.F.04. Control de acceso al repositorio: 
-Como presidenta, quiero limitar el acceso al repositorio de recursos académicos según se sea usuario o no, para tener un control del acceso a Nox. 
+Como presidente, quiero limitar el acceso al repositorio de recursos académicos según se sea usuario o no, para tener un control del acceso a Nox. 
 
 #### R.F.05. Liberación de recursos académicos: 
-Como presidenta, quiero permitir que los usuarios suban sus recursos y que estén disponibles para el resto de usuarios una vez revisados, para quedar al libre uso del resto de miembros. 
+Como presidente, quiero permitir que los usuarios suban sus recursos y que estén disponibles para el resto de usuarios una vez revisados, para quedar al libre uso del resto de miembros. 
 
 #### R.F.06. Gestión de información de los recursos: 
 Como  administrador, quiero gestionar y clasificar correctamente la información de cada recurso académico liberado, para mejorar la gestión de los archivos. Asimismo, también debe garantizar al usuario la posibilidad de eliminar dicho recurso antes de ser verificado por un administrador.  
@@ -127,7 +127,7 @@ Como administrador, quiero retirar recursos académicos que hayan sido subidos c
 Como usuario, quiero poder buscar los recursos académicos que desee mediante el medio correspondiente para poder encontrar mis archivos más rápidamente. 
 
 #### R.F.11. Filtrado de recursos. 
-Como presidenta, quiero permitir que a la hora de buscar dichos recursos pueda aplicarse un filtrado por parámetros como la asignatura, carrera o curso, para alcanzar más rápido al resultado deseado. 
+Como presidente, quiero permitir que a la hora de buscar dichos recursos pueda aplicarse un filtrado por parámetros como la asignatura, carrera o curso, para alcanzar más rápido al resultado deseado. 
 
 #### R.F.12. Consulta de recursos: 
 Como usuario, quiero realizar una búsqueda de recursos académicos en un rango de archivos a elegir, para tener conocimiento de las opciones acordes a mis necesidades.
@@ -151,10 +151,10 @@ Como administrador, quiero poder suspender las cuentas a los usuarios en caso de
 Como administrador, quiero actualizar el estado de cada recurso (pendiente de revisión, aprobado, rechazado, retirado) para determinar si el archivo puede ser descargado por los estudiantes. 
 
 #### R.F.19. Registro de mentorías
-Como presidenta quiero que queden registradas todas las mentorías en realización para gestionar la información referente a las actividades de mentoría.
+Como presidente quiero que queden registradas todas las mentorías en realización para gestionar la información referente a las actividades de mentoría.
 
 #### R.F.20. Petición de recursos: 
-Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el material concreto demandado siendo los administradores los responsables de satisfacer las peticiones para complementar los servicios ofrecidos por la aplicación.
+Como presidente quiero 	que los usuarios puedan realizar peticiones sobre el material concreto demandado siendo los administradores los responsables de satisfacer las peticiones para complementar los servicios ofrecidos por la aplicación.
 
 #### 4.1.1. Requisitos de información
 
@@ -224,7 +224,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 #### 4.1.2. Reglas de negocio
 ##### R.N.01. Criterio de validación de material
 
-- Como presidenta de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos
+- Como presidente de la asociación quiero que los archivos verificados solo reciban este criterio tras haber sido revisados por al menos dos administradores distintos para asegurar la diversidad de opinion en los archivos
 
 **Prueba de aceptación**
 
@@ -234,7 +234,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 ##### R.N.02. Organización de acceso a aplicación
 
-- Como presidenta quiero que todos lo usuarios posean un perfil completo (Nombre, contraseña, etc) dentro de la aplicación para poder ser fácilmente reconocibles
+- Como presidente quiero que todos lo usuarios posean un perfil completo (Nombre, contraseña, etc) dentro de la aplicación para poder ser fácilmente reconocibles
 
 **Prueba de aceptación**
 
@@ -242,7 +242,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - El perfil de todos los usuarios está completo (Cuentan con nombre, contraseña, etc)
 ##### R.N.03. Mantenimiento eficiente
 
-- Como presidenta quiero tener la posibilidad de delegar el mantenimiento de la aplicación mediante un usuario técnico que tenga la exclusividad de acceso al código.
+- Como presidente quiero tener la posibilidad de delegar el mantenimiento de la aplicación mediante un usuario técnico que tenga la exclusividad de acceso al código.
 
 **Prueba de aceptación**
 
@@ -250,7 +250,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Como usuario distinto a técnico no tengo acceso al código
 ##### R.N.04. Inicio de sesión
 
-- Como presidenta quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación
+- Como presidente quiero que los usuarios deban iniciar sesión a la aplicación mediante la información de su perfil (nombre/número de socio y contraseña) para facilitar su acceso a la aplicación
 
 **Prueba de aceptación**
 
@@ -258,7 +258,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Si no introduzco mi nombre/número de socio y contraseña correctamente no puedo iniciar sesión
 ##### R.N.05. Control sobre socios
 
-- Como presidenta quiero que solo puedan subir archivos los socios con antigüedad superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
+- Como presidente quiero que solo puedan subir archivos los socios con antigüedad superior a una semana para asegurar el completo conocimiento de la normativa de la asociación por parte de los socios
 
 **Prueba de aceptación**
 
@@ -274,7 +274,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Si estoy en una cuenta suspendida he intento subir o descargar archivos me da error
 ##### R.N.07. Preservación de material
 
-- Como presidenta quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente, apareciendo en estos el autor como [borrado] para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente
+- Como presidente quiero que las cuentas de los usuarios puedan ser eliminadas permanentamente sin afectar a los archivos que hayan subido previamente, apareciendo en estos el autor como [borrado] para poder mantener un ambiente activo dentro de la aplicación sin eliminar contenido ya presente
 
 **Prueba de aceptación**
 
@@ -293,11 +293,11 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Si soy presidente o técnico no puedo ver o editar mis propios permisos pero si ver y editar los de los administradores y socios
 ##### R.N.09. Gestión de roles y privilegios
 
-- Como presidenta quiero tener la capacidad de poder eliminar los permisos de los administradores en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicación
+- Como presidente quiero tener la capacidad de poder eliminar los permisos de los administradores en caso de mala conducta y rebajarlos al rol de socio, para poder mantener la correcta administración de la aplicación
 
 **Prueba de aceptación**
 
-- Como presidenta puedo modificar el permiso de administración de los administradores 
+- Como presidente puedo modificar el permiso de administración de los administradores 
 - Como administrador mis permisos pueden ser rebajados a los de socio
 ##### R.N.10. Renovación de usuarios
 
@@ -310,7 +310,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Como administrador, presidente o técnico no me veo afectado
 ##### R.N.11. Control de calidad y utilidad
 
-- Como presidenta quiero que los archivos de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los archivos realmente útiles
+- Como presidente quiero que los archivos de cursos anteriores sean eliminados si no supera cierto numero de descargas o presentan más de cierta puntuación, para mantener solo los archivos realmente útiles
 
 **Prueba de aceptación**
 
@@ -381,19 +381,19 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 #### Vista 2
 
-
+![](Vista2.png)
 
 #### Vista 3
 
-
+![](Vista3.png)
 
 #### Vista 4
 
-
+![](Vista4.png)
 
 #### Vista 5
 
-
+![](Vista5.png)
 
 ### 5.2. Escenarios de prueba
 
