@@ -371,7 +371,7 @@ Como presidenta quiero 	que los usuarios puedan realizar peticiones sobre el mat
 
 ### 5.1. Diagramas de clases UML
 
-![](DiagramaUML.png)
+![](ModeladoConceptual.png)
 
 - con restricciones.
 
