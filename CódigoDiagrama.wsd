@@ -68,12 +68,12 @@ entity Rechazo
 
 
 
-Usuario "1" *-u-- "1" ListaPermisos : cuentaCon >
-
+Usuario "1" *--u- "1" ListaPermisos : cuentaCon >
+Usuario "*" -u- "*" ListaPermisos : modifica >
 Usuario "0..1" -- "*" Archivo : sube >
 Usuario "0..2" --- "*" Archivo : revisa >
 (Usuario,Archivo) .. Rechazo
-Usuario "1" -- "*" Archivo : edita >
+Usuario "1" --- "*" Archivo : edita >
 Usuario "*" -- "*" Archivo : descarga >
 (Usuario, Archivo) .. Valoración
 Usuario "1" -- "*" Valoración : responde >
