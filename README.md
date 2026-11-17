@@ -151,7 +151,7 @@ Como administrador, quiero poder suspender las cuentas a los usuarios en caso de
 Como administrador, quiero actualizar el estado de cada recurso (pendiente de revisión, aprobado, rechazado, retirado) para determinar si el archivo puede ser descargado por los estudiantes. 
 
 #### R.F.19. Registro de mentorías
-Como presidente quiero que queden registradas todas las mentorías en realización para gestionar la información referente a las actividades de mentoría.
+Como presidente quiero que queden registradas todas las mentorías en realización junto con la asigatura sobre la que trata y el material que utiliza para gestionar la información referente a las actividades de mentoría.
 
 #### R.F.20. Petición de recursos: 
 Como presidente quiero 	que los usuarios puedan realizar peticiones sobre el material concreto demandado siendo los administradores los responsables de satisfacer las peticiones para complementar los servicios ofrecidos por la aplicación.
