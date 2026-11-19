@@ -345,13 +345,13 @@ Como presidente quiero 	que los usuarios puedan realizar peticiones sobre el mat
 - Si soy socio e intento leer cualquier otra cosa me da error
 ##### R.N.15. Permisos de edición y lectura de los administradores
 
-- Como administrador debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación, todo esto para cumplir correctamente mi función de administrador   
+- Como administrador debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre y permisos de todos los socios, salvo permiso de administración y eliminación, todo esto para cumplir correctamente mi función de administrador. 
 
 **Prueba de aceptación**
 
 - Cuando soy administrador e intento editar o leer la información sobre mi cuenta, todos los archivos, peticiones, mentorías o el nombre, información personal y permisos de todos los socios, salvo permiso de administración y eliminación no me da error 
 - Si soy administrador e intento editar o leer cualquier otra cosa me da error
-- 
+  
 ##### R.N.16. Permisos de edición del presidente/técnicos
 
 -  Como presidente/técnico debo poder editar y leer toda la información sobre archivos, peticiones, mentorías y mi cuenta salvo los permisos. También debo poder editar y leer el nombre, información personal y permisos de todos los socios y administradores, todo esto para cumplir correctamente mi función de presidente/técnico   
