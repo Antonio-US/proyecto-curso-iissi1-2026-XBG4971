@@ -39,8 +39,10 @@ entity Archivo
 	Archivo : fechaSubida
 	Archivo : formato
 	Archivo : direcciónArchivo
+	Archivo : tamaño
 	Archivo : numDescargas
-	Archivo : verificado
+	Archivo : verificado 
+
 
 entity Asignatura
 	Asignatura : nombreAsignatura
@@ -50,12 +52,14 @@ entity Asignatura
 entity Valoración
 	Valoración : puntuación
 	Valoración : reseña
-	Valoración : respuestaAdministrador
+	Valoración : respuestaAdministrador [0..1]
 
 entity Petición
+	Petición : Asunto
 	Petición : mensajeUsuario
 	Petición : formato
 	Petición : leido
+	Petición : respuestaAdministrador [0..1]
 	Petición : cumplida
 
 entity Mentoría
@@ -65,34 +69,32 @@ entity Mentoría
 entity Rechazo
 	Rechazo : razón
 
-
-
-
 Usuario "1" *--u- "1" ListaPermisos : cuentaCon >
+Usuario "*" -d- "*" Usuario : edita >
+
 Usuario "*" -u- "*" ListaPermisos : modifica >
 Usuario "0..1" -- "*" Archivo : sube >
-Usuario "0..2" --- "*" Archivo : revisa >
+Usuario "0..2\n(administrador)" --- "*" Archivo : revisa >
 (Usuario,Archivo) .. Rechazo
-Usuario "1" --- "*" Archivo : edita >
+Usuario "1" -- "*" Archivo : edita >
 Usuario "*" -- "*" Archivo : descarga >
 (Usuario, Archivo) .. Valoración
-Usuario "1" -- "*" Valoración : responde >
+Usuario "1\n(administrador)" -l- "*" Valoración : responde >
 
-Archivo "*" --- "1" Asignatura : perteneceA >
+Archivo "*" -- "1" Asignatura : perteneceA >
 
-Usuario "1" --- "*" Petición : realiza >
+
+Usuario "*\n(administrador)" -- "*" Petición : cambia >
+Usuario "1" -r- "*" Petición : realiza >
 Petición "*" -- "1" Asignatura : solicitaSobre >
 Petición "*" -- "0..1" Archivo : satisfaceCon >
 
 Usuario "1\n(mentor)" -- "*" Mentoría : imparte >
-Usuario "1..\n(mentorado)" -- "*" Mentoría : recibe >
+Usuario "1\n(mentorado)" -- "*" Mentoría : recibe >
 
 Mentoría "*" -- "1" Asignatura : trataSobre >
 Mentoría "*" -l- "*" Archivo : utiliza >
 
-
-
-@endluml
 
 
 @endluml
